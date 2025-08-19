@@ -273,6 +273,14 @@ class OperaMonitor:
         else:
             analysis_result.append("   未发现问题")
         
+        # 提取和显示最后10条SEQUENCE# APPLIED记录
+        sequence_records = self.extract_sequence_applied_records(check_standby_output)
+        if sequence_records:
+            analysis_result.append("\n   最后10条SEQUENCE# APPLIED记录:")
+            analysis_result.extend([f"   - {record}" for record in sequence_records])
+        else:
+            analysis_result.append("\n   未找到SEQUENCE# APPLIED记录")
+        
         # 2. HTML报告分析
         analysis_result.append("\n2. HTML报告分析:")
         if html_analysis:
@@ -1119,13 +1127,13 @@ class OperaMonitor:
             return 0
     
     def _get_time_status_with_color(self, days):
-        """根据天数返回带颜色的状态信息"""
+        """根据天数返回带告警级别图标的状态信息"""
         if days <= 31:
-            return "<span style='color: green; font-weight: bold;'>状态正常</span>"
+            return "<span class='alert-badge alert-normal'>✅ 状态正常</span>"
         elif days <= 62:
-            return "<span style='color: orange; font-weight: bold;'>需要关注</span>"
+            return "<span class='alert-badge alert-warning'>🟡 需要关注</span>"
         else:
-            return "<span style='color: red; font-weight: bold;'>立即关注，建议立即重启服务器以释放资源</span>"
+            return "<span class='alert-badge alert-critical'>🔴 立即关注，建议立即重启服务器以释放资源</span>"
     
     def _extract_standby_database_info(self, content):
         """提取Standby Database信息"""
@@ -1563,6 +1571,15 @@ class OperaMonitor:
         else:
             self.analysis_text.insert(tk.END, "   未发现问题\n")
         
+        # 提取和显示最后10条SEQUENCE# APPLIED记录
+        sequence_records = self.extract_sequence_applied_records(check_standby_output)
+        if sequence_records:
+            self.analysis_text.insert(tk.END, "\n   最后10条SEQUENCE# APPLIED记录:\n")
+            for record in sequence_records:
+                self.analysis_text.insert(tk.END, f"   - {record}\n")
+        else:
+            self.analysis_text.insert(tk.END, "\n   未找到SEQUENCE# APPLIED记录\n")
+        
         # 分析HTML报告
         self.analysis_text.insert(tk.END, "\n2. HTML报告分析:\n")
         
@@ -1666,6 +1683,46 @@ class OperaMonitor:
             self.analysis_text.insert(tk.END, "   表空间使用检查: 警告 (有表空间使用率超过80%)\n")
         else:
             self.analysis_text.insert(tk.END, "   表空间使用检查: 正常\n")
+    
+    def extract_sequence_applied_records(self, check_standby_output):
+        """从check_standby.bat输出中提取最后10条SEQUENCE# APPLIED记录"""
+        import re
+        
+        try:
+            # 使用正则表达式提取SEQUENCE#和APPLIED状态
+            # 匹配格式如: "123 YES" 或 "123 NO" 或包含数字和YES/NO的行
+            pattern = r'^\s*(\d+)\s+(YES|NO)\s*$'
+            
+            sequence_records = []
+            lines = check_standby_output.split('\n')
+            
+            for line in lines:
+                line = line.strip()
+                match = re.match(pattern, line, re.IGNORECASE)
+                if match:
+                    sequence_num = match.group(1)
+                    applied_status = match.group(2).upper()
+                    sequence_records.append(f"SEQUENCE#: {sequence_num}, APPLIED: {applied_status}")
+            
+            # 如果没有找到标准格式，尝试更宽松的匹配
+            if not sequence_records:
+                # 尝试匹配包含数字和YES/NO的行
+                loose_pattern = r'.*?(\d+).*?(YES|NO).*?'
+                for line in lines:
+                    line = line.strip()
+                    if line and not line.startswith('-') and not line.startswith('='):
+                        match = re.search(loose_pattern, line, re.IGNORECASE)
+                        if match:
+                            sequence_num = match.group(1)
+                            applied_status = match.group(2).upper()
+                            sequence_records.append(f"SEQUENCE#: {sequence_num}, APPLIED: {applied_status}")
+            
+            # 返回最后10条记录
+            return sequence_records[-10:] if sequence_records else []
+            
+        except Exception as e:
+            logger.error(f"提取SEQUENCE# APPLIED记录时出错: {e}")
+            return []
     
     def send_email_report_service_mode(self, analysis_result):
         """服务模式下发送邮件报告（不依赖GUI组件）"""

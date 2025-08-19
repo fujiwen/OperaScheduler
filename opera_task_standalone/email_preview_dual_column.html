@@ -144,13 +144,13 @@
                     <div class="report-content-item">
                         <strong>Production 数据库状态:</strong>
                         ✅ 数据库运行正常
-                        📊 运行时间: 45天
+                        📊 运行时间: <span class="alert-badge alert-warning">🟡 需要关注</span> (45天)
                         💾 表空间使用率: 78%
                         🔄 归档日志状态: 正常
                     </div>
                     <div class="report-content-item">
                         <strong>Standby 数据库状态:</strong>
-                        ⚠️ 数据库启用已超过2个月，建议重启服务器以释放资源
+                        <span class="alert-badge alert-critical">🔴 立即关注，建议立即重启服务器以释放资源</span>
                         📊 运行时间: 65天
                         🔄 同步状态: 正常
                         📈 延迟时间: 2秒
@@ -167,7 +167,7 @@
                         🖥️ CPU使用率: 65%
                         💾 内存使用率: 72%
                         💿 磁盘使用率: 68%
-                        🌡️ 系统温度: 正常
+                        🌡️ 系统温度: <span class="alert-badge alert-normal">✅ 状态正常</span>
                     </div>
                     <div class="report-content-item">
                         <strong>备份状态检查:</strong>
