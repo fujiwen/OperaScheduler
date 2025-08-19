@@ -1,0 +1,80 @@
+2025-08-06 17:33:03,694 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:16:14,750 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:18:06,759 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:18:06,806 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.py", line 773, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 18:22:43,419 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:23:26,477 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:23:26,489 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:23:26,496 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:24:27,399 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:24:27,428 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:17:33,532 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:17:33,542 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:19:40,533 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:28:55,262 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:28:55,290 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:29:46,095 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:29:46,123 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:30:28,076 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:30:28,104 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:31:37,859 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:31:37,904 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 22:56:22,498 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 10:37:54,505 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 10:39:46,889 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 10:42:04,087 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 10:47:41,051 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 10:48:00,921 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:07:27,670 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:08:11,665 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:09:33,414 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:09:33,469 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:16:36,573 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:16:36,588 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:36:32,217 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:36:32,226 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:37:19,555 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:37:19,568 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:38:07,719 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:38:07,730 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:38:28,623 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:38:28,633 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:43:15,041 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:43:15,053 - OperaMonitor - ERROR - 计算时间差时出错: time data 'MAXIMUM PERFORMANCE' does not match format '%d-%b-%Y %H:%M'
+2025-08-07 11:46:23,025 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:46:44,659 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:48:09,205 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 11:49:56,686 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 12:43:43,967 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 12:47:52,155 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 12:48:15,778 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:06:57,482 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:17:21,072 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:17:21,079 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:17:21,082 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:18:02,833 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:18:02,837 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 14:18:02,842 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 19:25:33,135 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini

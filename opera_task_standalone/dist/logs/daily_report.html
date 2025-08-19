@@ -1,0 +1,1543 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="SQL*Plus 12.2.0">
+<style type='text/css'>  body {  font:10pt Arial,Helvetica,sans-serif;  color:black; background:White;}  p {  font:10pt Arial,Helvetica,sans-serif;  color:black; background:White;}  table,tr,td {  font:10pt Arial,Helvetica,sans-serif;  color:Black; background:#f7f7e7;  padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}  th {  font:bold 10pt Arial,Helvetica,sans-serif;  color:#336699; background:#cccc99;  padding:0px 0px 0px 0px;}  h1 {  font:bold 18pt Arial,Helvetica,Geneva,sans-serif; text-align:center;  color:#336699; background-color:White; text-decoration: underline;  border-bottom:0px solid #cccc99;  margin-top:10pt; margin-bottom:5pt; padding:0px 0px 0px 0px;}  h2 {  font:bold 15pt Arial,Helvetica,Geneva,sans-serif; text-align:center;  color:#336699; background-color:White; text-decoration: underline;  border-bottom:0px solid #cccc99;  margin-top:5pt; margin-bottom:5pt; padding:0px 0px 0px 0px;}  h3 {  font:bold 13pt Arial,Helvetica,Geneva,sans-serif;  color:#336699; background-color:White;  margin-top:4pt; margin-bottom:2pt;}  a {  font:9pt Arial,Helvetica,sans-serif;  color:#663300; background:#ffffff;  margin-top:0pt; margin-bottom:0pt; vertical-align:top;}  </style>  <title>Opera Data Guard Daily Report (Version 1.2)</title>
+</head>
+<body>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<td>
+<h1>Opera Data Guard Daily Report (Version 1.2)</h1>
+<b><center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#336
+699">07-AUG-25</font></b>
+</td>
+</tr>
+</table>
+<p>
+<br>
+<br>
+<h2>Standby Database</h2>
+<br>
+<h3>General Database Information:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+INST_ID
+</th>
+<th scope="col">
+DATABASE NAME
+</th>
+<th scope="col">
+INSTANCE NAME
+</th>
+<th scope="col">
+STATUS
+</th>
+<th scope="col">
+HOST NAME
+</th>
+<th scope="col">
+DATABASE ROLE
+</th>
+<th scope="col">
+PROTECTION MODE
+</th>
+<th scope="col">
+START TIME
+</th>
+<th scope="col">
+SYSTEM DATE
+</th>
+</tr>
+<tr>
+<td align="right">
+         1
+</td>
+<td>
+OPERA
+</td>
+<td>
+OPERA
+</td>
+<td>
+<b><font color="#8A0829">MOUNTED</font></b>
+</td>
+<td>
+<b><font color="#8A0829">S-AA-H7970-DB</font></b>
+</td>
+<td>
+<b><font color="#8A0829">PHYSICAL STANDBY</font></b>
+</td>
+<td>
+MAXIMUM PERFORMANCE
+</td>
+<td>
+22-JUL-2025 16:36
+</td>
+<td>
+07-AUG-2025 10:21
+</td>
+</tr>
+</table>
+<p>
+<h3>Applied logs:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+LOGS
+</th>
+<th scope="col">
+TIME
+</th>
+</tr>
+<tr>
+<td>
+Last Applied  :
+</td>
+<td>
+07-AUG-2025 10:05
+</td>
+</tr>
+<tr>
+<td>
+Last Received :
+</td>
+<td>
+07-AUG-2025 10:05
+</td>
+</tr>
+</table>
+<p>
+<h3>Archive gaps:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+GAPS
+</th>
+</tr>
+<tr>
+<td>
+0
+</td>
+</tr>
+</table>
+<p>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#008000"><b>归档日志间隙检查: 正常
+<br>
+(无间隙)</b></font></center>
+<br>
+<h3>Logs not applied:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+NOT APPLIED
+</th>
+</tr>
+<tr>
+<td align="right">
+         0
+</td>
+</tr>
+</table>
+<p>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#008000"><b>未应用日志检查: 正常
+<br>
+(所有日志已应用)</b></font></center>
+<br>
+<h3>Deleted archive logs:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+DELETED ARCHIVE LOGS
+</th>
+</tr>
+<tr>
+<td align="right">
+         0
+</td>
+</tr>
+</table>
+<p>
+<h3>Process on standby server:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+PROCESS
+</th>
+<th scope="col">
+STATUS
+</th>
+</tr>
+<tr>
+<td>
+DGRD
+</td>
+<td>
+ALLOCATED
+</td>
+</tr>
+<tr>
+<td>
+ARCH
+</td>
+<td>
+CONNECTED
+</td>
+</tr>
+<tr>
+<td>
+DGRD
+</td>
+<td>
+ALLOCATED
+</td>
+</tr>
+<tr>
+<td>
+ARCH
+</td>
+<td>
+CONNECTED
+</td>
+</tr>
+<tr>
+<td>
+ARCH
+</td>
+<td>
+CONNECTED
+</td>
+</tr>
+<tr>
+<td>
+ARCH
+</td>
+<td>
+CONNECTED
+</td>
+</tr>
+<tr>
+<td>
+MRP0
+</td>
+<td>
+WAIT_FOR_LOG
+</td>
+</tr>
+<tr>
+<td>
+RFS
+</td>
+<td>
+IDLE
+</td>
+</tr>
+<tr>
+<td>
+RFS
+</td>
+<td>
+IDLE
+</td>
+</tr>
+<tr>
+<td>
+RFS
+</td>
+<td>
+IDLE
+</td>
+</tr>
+</table>
+<p>
+</body>
+</html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="SQL*Plus 12.2.0">
+<style type='text/css'>  body {  font:10pt Arial,Helvetica,sans-serif;  color:black; background:White;}  p {  font:10pt Arial,Helvetica,sans-serif;  color:black; background:White;}  table,tr,td {  font:10pt Arial,Helvetica,sans-serif;  color:Black; background:#f7f7e7;  padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}  th {  font:bold 10pt Arial,Helvetica,sans-serif;  color:#336699; background:#cccc99;  padding:0px 0px 0px 0px;}  h1 {  font:bold 18pt Arial,Helvetica,Geneva,sans-serif; text-align:center;  color:#336699; background-color:White; text-decoration: underline;  border-bottom:0px solid #cccc99;  margin-top:10pt; margin-bottom:5pt; padding:0px 0px 0px 0px;}  h2 {  font:bold 15pt Arial,Helvetica,Geneva,sans-serif; text-align:center;  color:#336699; background-color:White; text-decoration: underline;  border-bottom:0px solid #cccc99;  margin-top:5pt; margin-bottom:5pt; padding:0px 0px 0px 0px;}  h3 {  font:bold 13pt Arial,Helvetica,Geneva,sans-serif;  color:#336699; background-color:White;  margin-top:4pt; margin-bottom:2pt;}  a {  font:9pt Arial,Helvetica,sans-serif;  color:#663300; background:#ffffff;  margin-top:0pt; margin-bottom:0pt; vertical-align:top;}  </style>  <title>Opera Data Guard Daily Report (Version 1.2)</title>
+</head>
+<body>
+<br>
+<br>
+<h2>Production Database</h2>
+<br>
+<h3>General Database Information:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+INST_ID
+</th>
+<th scope="col">
+DATABASE NAME
+</th>
+<th scope="col">
+INSTANCE
+</th>
+<th scope="col">
+STATUS
+</th>
+<th scope="col">
+HOST NAME
+</th>
+<th scope="col">
+DATABASE ROLE
+</th>
+<th scope="col">
+START TIME
+</th>
+<th scope="col">
+SYSTEM DATE
+</th>
+</tr>
+<tr>
+<td align="right">
+         1
+</td>
+<td>
+OPERA
+</td>
+<td>
+OPERA
+</td>
+<td>
+<b><font color="#8A0829">OPEN</font></b>
+</td>
+<td>
+<b><font color="#8A0829">S-AA-H7970-FO</font></b>
+</td>
+<td>
+<b><font color="#8A0829">PRIMARY</font></b>
+</td>
+<td>
+22-APR-2025 01:44
+</td>
+<td>
+07-AUG-2025 10:21
+</td>
+</tr>
+</table>
+<p>
+<h3>Opera Version Information:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+OPERA VERSION
+</th>
+</tr>
+<tr>
+<td>
+5.0.06.19 E00005
+</td>
+</tr>
+</table>
+<p>
+<h3>Oracle version Information:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+VERSION
+</th>
+</tr>
+<tr>
+<td>
+ Patch 28412269 applied
+</td>
+</tr>
+</table>
+<p>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+PLATFORM_NAME
+</th>
+</tr>
+<tr>
+<td>
+Microsoft Windows x86 64-bit
+</td>
+</tr>
+</table>
+<p>
+<h3>Tablespace usage:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE
+</th>
+<th scope="col">
+SIZE (M)
+</th>
+<th scope="col">
+MAX SIZE (M)
+</th>
+<th scope="col">
+USED %
+</th>
+<th scope="col">
+TYPE
+</th>
+<th scope="col">
+STATUS
+</th>
+</tr>
+<tr>
+<td>
+FINDATA
+</td>
+<td align="right">
+    7,864.000
+</td>
+<td align="right">
+   14,144.000
+</td>
+<td align="right">
+  29.90
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+FININDX
+</td>
+<td align="right">
+   11,560.000
+</td>
+<td align="right">
+   18,240.000
+</td>
+<td align="right">
+  42.81
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+LOGDATA
+</td>
+<td align="right">
+   13,060.000
+</td>
+<td align="right">
+   22,240.000
+</td>
+<td align="right">
+  55.92
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+LOGINDX
+</td>
+<td align="right">
+   10,864.000
+</td>
+<td align="right">
+   18,144.000
+</td>
+<td align="right">
+  56.97
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+NAMEDATA
+</td>
+<td align="right">
+    4,516.000
+</td>
+<td align="right">
+   12,096.000
+</td>
+<td align="right">
+   5.03
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+NAMEINDX
+</td>
+<td align="right">
+    2,768.000
+</td>
+<td align="right">
+   10,048.000
+</td>
+<td align="right">
+   8.67
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+OPERA_DATA
+</td>
+<td align="right">
+   13,260.000
+</td>
+<td align="right">
+   22,240.000
+</td>
+<td align="right">
+  41.80
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+OPERA_INDX
+</td>
+<td align="right">
+    6,016.000
+</td>
+<td align="right">
+   16,096.000
+</td>
+<td align="right">
+  17.15
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+OXI_DATA
+</td>
+<td align="right">
+   43,828.000
+</td>
+<td align="right">
+   51,008.000
+</td>
+<td align="right">
+   2.49
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+OXI_INDX
+</td>
+<td align="right">
+    1,144.000
+</td>
+<td align="right">
+    9,024.000
+</td>
+<td align="right">
+   0.90
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+QUICKDATA
+</td>
+<td align="right">
+      632.000
+</td>
+<td align="right">
+    8,512.000
+</td>
+<td align="right">
+   0.92
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+QUICKINDX
+</td>
+<td align="right">
+    4,316.000
+</td>
+<td align="right">
+   12,096.000
+</td>
+<td align="right">
+   1.28
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+RATEDATA
+</td>
+<td align="right">
+    2,880.000
+</td>
+<td align="right">
+   10,560.000
+</td>
+<td align="right">
+   8.22
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+RATEINDX
+</td>
+<td align="right">
+    1,244.000
+</td>
+<td align="right">
+    9,024.000
+</td>
+<td align="right">
+   5.09
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+RESVDATA
+</td>
+<td align="right">
+    3,904.000
+</td>
+<td align="right">
+   11,584.000
+</td>
+<td align="right">
+  28.40
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+RESVINDX
+</td>
+<td align="right">
+   11,060.000
+</td>
+<td align="right">
+   18,240.000
+</td>
+<td align="right">
+  37.94
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+    3,448.000
+</td>
+<td align="right">
+    6,648.000
+</td>
+<td align="right">
+  35.36
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+    3,848.000
+</td>
+<td align="right">
+    6,048.000
+</td>
+<td align="right">
+  46.54
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+TEMPSEG
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+    5,996.000
+</td>
+<td align="right">
+&nbsp;
+</td>
+<td>
+TEMPORARY
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+TOOLS
+</td>
+<td align="right">
+       10.000
+</td>
+<td align="right">
+    4,000.000
+</td>
+<td align="right">
+   0.03
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+    4,092.000
+</td>
+<td align="right">
+    4,092.000
+</td>
+<td align="right">
+   4.41
+</td>
+<td>
+UNDO
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_I
+AS_OPSS
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   1.03
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_I
+AS_TEMP
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    3,072.000
+</td>
+<td align="right">
+&nbsp;
+</td>
+<td>
+TEMPORARY
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_I
+AS_UMS
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.26
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_I
+AU
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.95
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_M
+DS
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.36
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_S
+TB
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.04
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V56INFRA_W
+LS
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.19
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_IA
+S_OPSS
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.87
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_IA
+S_TEMP
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    3,072.000
+</td>
+<td align="right">
+&nbsp;
+</td>
+<td>
+TEMPORARY
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_IA
+S_UMS
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.26
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_IA
+U
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.95
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_MD
+S
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.24
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_ST
+B
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.04
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+V5INFRA_WL
+S
+</td>
+<td align="right">
+      200.000
+</td>
+<td align="right">
+    5,120.000
+</td>
+<td align="right">
+   0.19
+</td>
+<td>
+PERMANENT
+</td>
+<td>
+<font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#298A08"><b>OK</b></font>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp;
+</td>
+<td align="right">
+-------------
+</td>
+<td align="right">
+-------------
+</td>
+<td align="right">
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+Total:
+</td>
+<td align="right">
+  158,234.000
+</td>
+<td align="right">
+  357,664.000
+</td>
+<td align="right">
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+<td>
+&nbsp;
+</td>
+</tr>
+</table>
+<p>
+<h3>Number of database connections:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+INSTANCE
+</th>
+<th scope="col">
+DATABASE CONNECTIONS
+</th>
+</tr>
+<tr>
+<td align="right">
+         1
+</td>
+<td align="right">
+ 118
+</td>
+</tr>
+</table>
+<p>
+<br>
+<br>
+<h3>List of last 3 days backups:</h3>
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SESSION RECID
+</th>
+<th scope="col">
+START_TIME
+</th>
+<th scope="col">
+END_TIME
+</th>
+<th scope="col">
+OUTPUT (M)
+</th>
+<th scope="col">
+STATUS
+</th>
+<th scope="col">
+INPUT_TYPE
+</th>
+<th scope="col">
+DAY
+</th>
+<th scope="col">
+TIME TAKEN
+</th>
+<th scope="col">
+OUT INST
+</th>
+</tr>
+<tr>
+<td align="right">
+  16328
+</td>
+<td>
+04-AUG-2025 00:01
+</td>
+<td>
+04-AUG-2025 00:16
+</td>
+<td align="right">
+    26,000
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Monday
+</td>
+<td>
+00:15:24
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16335
+</td>
+<td>
+04-AUG-2025 08:01
+</td>
+<td>
+04-AUG-2025 08:16
+</td>
+<td align="right">
+    26,482
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Monday
+</td>
+<td>
+00:15:27
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16342
+</td>
+<td>
+04-AUG-2025 16:01
+</td>
+<td>
+04-AUG-2025 16:17
+</td>
+<td align="right">
+    26,840
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Monday
+</td>
+<td>
+00:15:57
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16349
+</td>
+<td>
+05-AUG-2025 00:01
+</td>
+<td>
+05-AUG-2025 00:19
+</td>
+<td align="right">
+    27,072
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Tuesday
+</td>
+<td>
+00:17:50
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16356
+</td>
+<td>
+05-AUG-2025 08:01
+</td>
+<td>
+05-AUG-2025 08:16
+</td>
+<td align="right">
+    26,491
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Tuesday
+</td>
+<td>
+00:15:39
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16363
+</td>
+<td>
+05-AUG-2025 16:01
+</td>
+<td>
+05-AUG-2025 16:17
+</td>
+<td align="right">
+    26,899
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Tuesday
+</td>
+<td>
+00:15:48
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16370
+</td>
+<td>
+06-AUG-2025 00:01
+</td>
+<td>
+06-AUG-2025 00:16
+</td>
+<td align="right">
+    27,115
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Wednesday
+</td>
+<td>
+00:15:41
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16377
+</td>
+<td>
+06-AUG-2025 08:01
+</td>
+<td>
+06-AUG-2025 08:16
+</td>
+<td align="right">
+    26,390
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Wednesday
+</td>
+<td>
+00:15:36
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16384
+</td>
+<td>
+06-AUG-2025 16:01
+</td>
+<td>
+06-AUG-2025 16:17
+</td>
+<td align="right">
+    26,842
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Wednesday
+</td>
+<td>
+00:15:52
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16391
+</td>
+<td>
+07-AUG-2025 00:01
+</td>
+<td>
+07-AUG-2025 00:16
+</td>
+<td align="right">
+    27,077
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Thursday
+</td>
+<td>
+00:15:37
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+<tr>
+<td align="right">
+  16398
+</td>
+<td>
+07-AUG-2025 08:01
+</td>
+<td>
+07-AUG-2025 08:16
+</td>
+<td align="right">
+    26,520
+</td>
+<td>
+COMPLETED
+</td>
+<td>
+DB FULL
+</td>
+<td>
+Thursday
+</td>
+<td>
+00:15:38
+</td>
+<td align="right">
+    1
+</td>
+</tr>
+</table>
+<p>
+</body>
+</html>

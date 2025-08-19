@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type='text/css'>
+    body {
+    font:10pt Arial,Helvetica,sans-serif;
+    color:black; background:White;}
+    p {
+    font:10pt Arial,Helvetica,sans-serif;
+    color:black; background:White;}
+    table,tr,td {
+    font:10pt Arial,Helvetica,sans-serif;
+    color:Black; background:#f7f7e7;
+    padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+    th {
+    font:bold 10pt Arial,Helvetica,sans-serif;
+    color:#336699; background:#cccc99;
+    padding:0px 0px 0px 0px;}
+    h1 {
+    font:bold 18pt Arial,Helvetica,Geneva,sans-serif; text-align:center;
+    color:#336699; background-color:White; text-decoration: underline;
+    border-bottom:0px solid #cccc99;
+    margin-top:10pt; margin-bottom:5pt; padding:0px 0px 0px 0px;}
+    h2 {
+    font:bold 15pt Arial,Helvetica,Geneva,sans-serif; text-align:center;
+    color:#336699; background-color:White; text-decoration: underline;
+    border-bottom:0px solid #cccc99;
+    margin-top:5pt; margin-bottom:5pt; padding:0px 0px 0px 0px;}
+    h3 {
+    font:bold 13pt Arial,Helvetica,Geneva,sans-serif;
+    color:#336699; background-color:White;
+    margin-top:4pt; margin-bottom:2pt;}
+    a {
+    font:9pt Arial,Helvetica,sans-serif;
+    color:#663300; background:#ffffff;
+    margin-top:0pt; margin-bottom:0pt; vertical-align:top;}
+    </style>
+    <title>Opera Data Guard Daily Report (Version 1.2)</title>
+</head>
+<body>
+
+<h1>Opera Data Guard Daily Report (Version 1.2)</h1>
+<b><center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#336699">07-AUG-25</font></b>
+
+<br>
+
+<h2>Standby Database</h2>
+<h3>General Database Information:</h3>
+<table border="1">
+<tr>
+<th>INST_ID</th>
+<th>DATABASE NAME</th>
+<th>INSTANCE NAME</th>
+<th>STATUS</th>
+<th>HOST NAME</th>
+<th>DATABASE ROLE</th>
+<th>PROTECTION MODE</th>
+<th>START TIME</th>
+<th>SYSTEM DATE</th>
+</tr>
+<tr>
+<td>1</td>
+<td>OPERADB</td>
+<td>OPERADB1</td>
+<td><b><font color="#8A0829">MOUNTED</font></b></td>
+<td><b><font color="#8A0829">standby-server</font></b></td>
+<td><b><font color="#8A0829">PHYSICAL STANDBY</font></b></td>
+<td>MAXIMUM PERFORMANCE</td>
+<td>06-AUG-2025 08:30</td>
+<td>07-AUG-2025 10:37</td>
+</tr>
+</table>
+
+<h3>Applied logs:</h3>
+<table border="1">
+<tr>
+<th>Logs</th>
+<th>Time</th>
+</tr>
+<tr>
+<td>Last Applied  :</td>
+<td>07-AUG-2025 10:35</td>
+</tr>
+<tr>
+<td>Last Received :</td>
+<td>07-AUG-2025 10:36</td>
+</tr>
+</table>
+
+<h3>Archive gaps:</h3>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>归档日志间隙检查: 异常 (存在间隙)</b></font></center>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>间隙数量: 2 个日志文件</b></font></center>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>间隙范围: 序列号 1234 到 1235</b></font></center>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>(Databases are not in sync, Please contact SHIJI support-4000211988.)</b></font></center>
+
+<h3>Logs not applied:</h3>
+<table border="1">
+<tr>
+<th>NOT APPLIED</th>
+</tr>
+<tr>
+<td>3</td>
+</tr>
+</table>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>未应用日志检查: 异常 (存在未应用日志)</b></font></center>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>未应用日志数量: 3 个日志文件</b></font></center>
+<center><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>(Some archive logs are not applied, Please contact SHIJI support-4000211988.)</b></font></center>
+
+<br>
+
+<h2>Production Database</h2>
+
+<h3>General Database Information:</h3>
+<table border="1">
+<tr>
+<th>INST_ID</th>
+<th>DATABASE NAME</th>
+<th>INSTANCE NAME</th>
+<th>STATUS</th>
+<th>HOST NAME</th>
+<th>DATABASE ROLE</th>
+<th>PROTECTION MODE</th>
+<th>START TIME</th>
+<th>SYSTEM DATE</th>
+</tr>
+<tr>
+<td>1</td>
+<td>OPERADB</td>
+<td>OPERADB1</td>
+<td><b><font color="#8A0829">OPEN</font></b></td>
+<td><b><font color="#8A0829">production-server</font></b></td>
+<td><b><font color="#8A0829">PRIMARY</font></b></td>
+<td>MAXIMUM PERFORMANCE</td>
+<td>05-AUG-2025 09:15</td>
+<td>07-AUG-2025 10:37</td>
+</tr>
+</table>
+
+<h3>Opera Version Information:</h3>
+<table border="1">
+<tr>
+<th>OPERA VERSION</th>
+</tr>
+<tr>
+<td>5.6.1.2 Build 2024.03.15</td>
+</tr>
+</table>
+
+<h3>Oracle version Information:</h3>
+<table border="1">
+<tr>
+<th>VERSION</th>
+</tr>
+<tr>
+<td>19.0.0.0.0 - Production Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - 64bit Production</td>
+</tr>
+</table>
+
+<table border="1">
+<tr>
+<th>PLATFORM_NAME</th>
+</tr>
+<tr>
+<td>Linux x86 64-bit</td>
+</tr>
+</table>
+
+<h3>Tablespace usage:</h3>
+<table border="1">
+<tr>
+<th>TABLESPACE</th>
+<th>SIZE (M)</th>
+<th>MAX SIZE (M)</th>
+<th>USED %</th>
+<th>TYPE</th>
+<th>STATUS</th>
+</tr>
+<tr>
+<td>SYSTEM</td>
+<td>1024.0000</td>
+<td>32767.9844</td>
+<td>75.50</td>
+<td>PERMANENT</td>
+<td><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FFBF00"><b>WARNING</b></font></td>
+</tr>
+<tr>
+<td>USERS</td>
+<td>2048.0000</td>
+<td>32767.9844</td>
+<td>95.20</td>
+<td>PERMANENT</td>
+<td><font size="+0" face="Arial,Helvetica,Geneva,sans-serif" color="#FF0000"><b>DANGER</b></font></td>
+</tr>
+</table>
+
+<h3>List of last 3 days backups:</h3>
+<table border="1">
+<tr>
+<th>SESSION_RECID</th>
+<th>END_TIME</th>
+<th>OUTPUT (M)</th>
+<th>STATUS</th>
+<th>INPUT_TYPE</th>
+<th>DAY</th>
+<th>TIME TAKEN</th>
+<th>OUT INST</th>
+</tr>
+<tr>
+<td>12345</td>
+<td>06-AUG-2025 02:30</td>
+<td>15678</td>
+<td>COMPLETED</td>
+<td>DB FULL</td>
+<td>Tuesday</td>
+<td>02:15:30</td>
+<td>1</td>
+</tr>
+<tr>
+<td>12346</td>
+<td>07-AUG-2025 02:30</td>
+<td>16234</td>
+<td>COMPLETED</td>
+<td>DB INCR</td>
+<td>Wednesday</td>
+<td>01:45:20</td>
+<td>1</td>
+</tr>
+</table>
+
+</body>
+</html>

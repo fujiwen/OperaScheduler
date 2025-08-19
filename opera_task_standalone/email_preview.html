@@ -1,0 +1,179 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opera DataGuard状态监测报告</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background-color: #f5f5f5;
+                padding: 20px;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+            .header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 30px;
+                text-align: center;
+            }
+            .header h1 {
+                font-size: 28px;
+                margin-bottom: 10px;
+                font-weight: 300;
+            }
+            .header .subtitle {
+                font-size: 16px;
+                opacity: 0.9;
+            }
+            .content {
+                padding: 30px;
+            }
+            .alert-badge {
+                display: inline-block;
+                padding: 8px 16px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            .alert-normal {
+                background-color: #d4edda;
+                color: #155724;
+                border: 1px solid #c3e6cb;
+            }
+            .alert-warning {
+                background-color: #fff3cd;
+                color: #856404;
+                border: 1px solid #ffeaa7;
+            }
+            .alert-critical {
+                background-color: #f8d7da;
+                color: #721c24;
+                border: 1px solid #f5c6cb;
+            }
+            .report-section {
+                background: #f8f9fa;
+                border-left: 4px solid #667eea;
+                padding: 20px;
+                margin: 20px 0;
+                border-radius: 0 8px 8px 0;
+            }
+            .report-content {
+                font-family: 'Courier New', monospace;
+                font-size: 13px;
+                line-height: 1.5;
+                white-space: pre-wrap;
+                background: white;
+                padding: 15px;
+                border-radius: 5px;
+                border: 1px solid #e9ecef;
+                max-height: 400px;
+                overflow-y: auto;
+            }
+            .footer {
+                background: #f8f9fa;
+                padding: 20px;
+                text-align: center;
+                border-top: 1px solid #e9ecef;
+                color: #6c757d;
+                font-size: 14px;
+            }
+            .timestamp {
+                color: #6c757d;
+                font-size: 14px;
+                margin-top: 10px;
+            }
+            .highlight {
+                background-color: #fff3cd;
+                padding: 2px 4px;
+                border-radius: 3px;
+            }
+            @media (max-width: 600px) {
+                .container {
+                    margin: 10px;
+                    border-radius: 5px;
+                }
+                .header, .content {
+                    padding: 20px;
+                }
+                .header h1 {
+                    font-size: 24px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🛡️ Opera DataGuard</h1>
+                <div class="subtitle">数据库状态监测报告</div>
+                <div class="timestamp">2025年08月07日 12:56</div>
+            </div>
+            <div class="content">
+                <div class="alert-badge alert-normal">
+                    ✅ 正常
+                </div>
+                <div class="report-section">
+                    <h3 style="margin-bottom: 15px; color: #495057;">📊 详细分析结果</h3>
+                    <div class="report-content">================================================================================
+🛡️ Opera DataGuard 状态监测报告
+================================================================================
+
+📊 监测概览:
+• 监测时间: 2025-08-07 13:15:30
+• 数据库状态: 正常运行
+• 备库同步: 正常
+• 告警级别: ✅ 正常
+
+📈 性能指标:
+• CPU使用率: 45%
+• 内存使用率: 62%
+• 磁盘I/O: 正常
+• 网络延迟: 2ms
+
+🔍 详细检查结果:
+✅ 归档日志间隙检查: 正常
+✅ 未应用日志检查: 正常
+✅ 数据库连接检查: 正常
+✅ 表空间使用率检查: 正常
+
+📋 建议:
+• 系统运行正常，无需特殊处理
+• 建议继续保持定期监控
+• 下次检查时间: 2025-08-07 14:15:30
+
+================================================================================
+报告生成完成
+================================================================================</div>
+                </div>
+                <div style="margin-top: 20px; padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 4px solid #2196f3;">
+                    <strong>📎 附件说明：</strong><br>
+                    • HTML详细报告：包含完整的数据库状态信息<br>
+                    • 检查输出文件：原始监控数据<br>
+                    • 日报输出文件：每日统计数据
+                </div>
+            </div>
+            <div class="footer">
+                <p>此邮件由 Opera DataGuard 自动监控系统生成</p>
+                <p>如有问题，请联系数据库管理员</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    

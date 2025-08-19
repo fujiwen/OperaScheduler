@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opera DataGuard 邮件预览 - 双栏布局</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .subtitle {
+            margin-top: 8px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 30px;
+        }
+        .alert-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .alert-normal {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .alert-warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        .alert-critical {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .report-section {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .report-content {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+            column-count: 2;
+            column-gap: 30px;
+            column-rule: 1px solid #e9ecef;
+        }
+        .report-content-item {
+            break-inside: avoid;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            border-left: 3px solid #667eea;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        .timestamp {
+            color: #6c757d;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                border-radius: 5px;
+            }
+            .header, .content {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .report-content {
+                column-count: 1;
+                column-gap: 0;
+                column-rule: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Opera DataGuard</h1>
+            <div class="subtitle">数据库状态监测报告</div>
+            <div class="timestamp">2024-01-15 14:30:25</div>
+        </div>
+        <div class="content">
+            <div class="alert-badge alert-warning">
+                ⚠️ 警告级别
+            </div>
+            <div class="report-section">
+                <h3 style="margin-bottom: 15px; color: #495057;">📊 详细分析结果</h3>
+                <div class="report-content">
+                    <div class="report-content-item">
+                        <strong>Production 数据库状态:</strong>
+                        ✅ 数据库运行正常
+                        📊 运行时间: 45天
+                        💾 表空间使用率: 78%
+                        🔄 归档日志状态: 正常
+                    </div>
+                    <div class="report-content-item">
+                        <strong>Standby 数据库状态:</strong>
+                        ⚠️ 数据库启用已超过2个月，建议重启服务器以释放资源
+                        📊 运行时间: 65天
+                        🔄 同步状态: 正常
+                        📈 延迟时间: 2秒
+                    </div>
+                    <div class="report-content-item">
+                        <strong>网络连接状态:</strong>
+                        🌐 Primary -> Standby: 正常
+                        📡 延迟: 15ms
+                        📊 带宽使用: 45%
+                        ✅ 连接稳定性: 良好
+                    </div>
+                    <div class="report-content-item">
+                        <strong>系统资源监控:</strong>
+                        🖥️ CPU使用率: 65%
+                        💾 内存使用率: 72%
+                        💿 磁盘使用率: 68%
+                        🌡️ 系统温度: 正常
+                    </div>
+                    <div class="report-content-item">
+                        <strong>备份状态检查:</strong>
+                        💾 最近备份时间: 2024-01-15 02:00
+                        ✅ 备份完整性: 验证通过
+                        📦 备份大小: 2.5GB
+                        🗂️ 保留策略: 30天
+                    </div>
+                    <div class="report-content-item">
+                        <strong>安全状态评估:</strong>
+                        🔐 访问控制: 正常
+                        🛡️ 防火墙状态: 启用
+                        📋 审计日志: 完整
+                        🔍 异常检测: 无异常
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 20px; padding: 15px; background: #e3f2fd; border-radius: 5px; border-left: 4px solid #2196f3;">
+                <strong>📎 附件说明：</strong><br>
+                • HTML详细报告：包含完整的数据库状态信息<br>
+                • 检查输出文件：原始监控数据<br>
+                • 日报输出文件：每日统计数据
+            </div>
+        </div>
+        <div class="footer">
+            <p>此报告由 Opera DataGuard 自动生成</p>
+            <p>如有问题，请联系系统管理员</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1766 @@
+2025-08-06 17:17:57,054 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:17:57,055 - OperaTask - INFO - ==================================================
+2025-08-06 17:17:57,056 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:17:57,056 - OperaTask - INFO - ==================================================
+2025-08-06 17:17:57,057 - OperaTask - ERROR - 执行监控任务时出错: No module named 'opera_monitor'
+2025-08-06 17:17:57,058 - OperaTask - ERROR - 详细错误信息:
+Traceback (most recent call last):
+  File "opera_task.py", line 65, in main
+    from opera_monitor import OperaMonitor
+ModuleNotFoundError: No module named 'opera_monitor'
+2025-08-06 17:19:48,481 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:19:48,483 - OperaTask - INFO - ==================================================
+2025-08-06 17:19:48,483 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:19:48,484 - OperaTask - INFO - ==================================================
+2025-08-06 17:19:48,485 - OperaTask - ERROR - 执行监控任务时出错: No module named 'opera_monitor'
+2025-08-06 17:19:48,485 - OperaTask - ERROR - 详细错误信息:
+Traceback (most recent call last):
+  File "opera_task.py", line 65, in main
+    from opera_monitor import OperaMonitor
+ModuleNotFoundError: No module named 'opera_monitor'
+2025-08-06 17:20:42,994 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:20:43,004 - OperaTask - INFO - ==================================================
+2025-08-06 17:20:43,017 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:20:43,025 - OperaTask - INFO - ==================================================
+2025-08-06 17:20:43,272 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:20:43,273 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:20:43,276 - OperaMonitor - WARNING - 以下文件路径不存在，请在设置中更新:
+检查备用数据库脚本: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+每日报告脚本: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:20:43,277 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:20:43,278 - OperaTask - ERROR - 批处理文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:21:00,657 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:21:00,658 - OperaTask - INFO - ==================================================
+2025-08-06 17:21:00,659 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:21:00,660 - OperaTask - INFO - ==================================================
+2025-08-06 17:21:00,825 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:21:00,845 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:21:00,846 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:21:00,847 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:21:00,847 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:21:00,848 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:21:00,848 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:21:00,849 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:21:00,849 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:21:00,850 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:21:01,112 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:21:01,153 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:21:01,153 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:21:01,154 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:21:01,210 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:21:01,250 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:21:01,254 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:21:01,254 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:21:01,255 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:21:01,255 - OperaTask - INFO - 分析结果:
+2025-08-06 17:21:01,256 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:21:01,256 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:21:01,257 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:21:01,291 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 770, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 17:21:01,317 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:21:01,318 - OperaTask - INFO - ==================================================
+2025-08-06 17:21:01,318 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:21:01,325 - OperaTask - INFO - ==================================================
+2025-08-06 17:26:35,392 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:26:35,393 - OperaTask - INFO - ==================================================
+2025-08-06 17:26:35,394 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:26:35,394 - OperaTask - INFO - ==================================================
+2025-08-06 17:26:35,563 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:26:35,564 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:26:35,565 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:26:35,566 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:26:35,566 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:26:35,567 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:26:35,567 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:26:35,567 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:26:35,567 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:26:35,568 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:26:35,627 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:26:35,640 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:26:35,641 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:26:35,642 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:26:35,699 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:26:35,714 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:26:35,714 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:26:35,715 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:26:35,715 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:26:35,716 - OperaTask - INFO - 分析结果:
+2025-08-06 17:26:35,716 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:26:35,717 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:26:35,717 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:26:35,742 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 771, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 17:26:35,750 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:26:35,751 - OperaTask - INFO - ==================================================
+2025-08-06 17:26:35,752 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:26:35,755 - OperaTask - INFO - ==================================================
+2025-08-06 17:27:01,206 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:27:01,207 - OperaTask - INFO - ==================================================
+2025-08-06 17:27:01,208 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:27:01,208 - OperaTask - INFO - ==================================================
+2025-08-06 17:27:01,378 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:27:01,379 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:27:01,381 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:27:01,382 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:27:01,382 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:27:01,383 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:27:01,383 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:27:01,383 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:27:01,384 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:27:01,384 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:27:01,441 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:27:01,454 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:27:01,454 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:27:01,455 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:27:01,501 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:27:01,515 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:27:01,516 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:27:01,517 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:27:01,517 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:27:01,518 - OperaTask - INFO - 分析结果:
+2025-08-06 17:27:01,518 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:27:01,518 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:27:01,519 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:27:01,519 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:27:01,520 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:27:01,520 - OperaTask - INFO - ==================================================
+2025-08-06 17:27:01,520 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:27:01,521 - OperaTask - INFO - ==================================================
+2025-08-06 17:32:28,946 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:32:28,947 - OperaTask - INFO - ==================================================
+2025-08-06 17:32:28,948 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:32:28,949 - OperaTask - INFO - ==================================================
+2025-08-06 17:32:29,116 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:32:29,120 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:32:29,121 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:32:29,122 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:32:29,122 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:32:29,123 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:32:29,123 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:32:29,124 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:32:29,125 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:32:29,125 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:32:29,297 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:32:29,311 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:32:29,340 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:32:29,341 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:32:29,404 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:32:29,432 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:32:29,435 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:32:29,435 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:32:29,439 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:32:29,440 - OperaTask - INFO - 分析结果:
+2025-08-06 17:32:29,442 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:32:29,443 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:32:29,443 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:32:29,444 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:32:29,445 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:32:29,445 - OperaTask - INFO - ==================================================
+2025-08-06 17:32:29,445 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:32:29,446 - OperaTask - INFO - ==================================================
+2025-08-06 17:43:42,115 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:43:42,115 - OperaTask - INFO - ==================================================
+2025-08-06 17:43:42,115 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:43:42,115 - OperaTask - INFO - ==================================================
+2025-08-06 17:43:42,369 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:43:42,371 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:43:42,371 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:43:42,371 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:43:42,371 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:43:42,371 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:43:42,372 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:43:42,372 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:43:42,372 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:43:42,372 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:43:42,624 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:43:42,627 - OperaMonitor - INFO - 姝ｅ湪鍘嬬缉褰掓。logs鐩�褰曚笅鐨勬枃浠�...
+2025-08-06 17:43:44,372 - OperaMonitor - INFO - logs鐩�褰曟枃浠跺凡鍘嬬缉涓�: logs_backup_20250806_174343.zip
+2025-08-06 17:43:44,417 - OperaMonitor - INFO - 错误输出:
+ZipArchiveHelper : The process cannot access the file 'C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standal
+one\dist\logs\opera_task.log' because it is being used by another process.
+At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:63
+2 char:30
++ ... sArchived = ZipArchiveHelper $sourceFilePaths $destinationPath $compr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+    + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+ 
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:43:44,417 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:43:44,417 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:43:44,624 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:43:44,639 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:43:44,639 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:43:44,639 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:43:44,639 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:43:44,640 - OperaTask - INFO - 分析结果:
+2025-08-06 17:43:44,640 - OperaTask - INFO -   Check Standby发现 2 个潜在问题:
+2025-08-06 17:43:44,640 - OperaTask - INFO -     - + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+2025-08-06 17:43:44,640 - OperaTask - INFO -     - + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+2025-08-06 17:43:44,640 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:43:44,640 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:43:44,640 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:43:44,640 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:43:44,640 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:43:44,641 - OperaTask - INFO - ==================================================
+2025-08-06 17:43:44,641 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:43:44,641 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:25,637 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:46:25,637 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:25,637 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:46:25,637 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:25,796 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:46:25,798 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:46:25,798 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:46:25,798 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:46:25,798 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:46:25,798 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:46:25,798 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:46:25,799 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:46:25,799 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:46:25,799 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:46:26,048 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:46:26,052 - OperaMonitor - INFO - 姝ｅ湪鍘嬬缉褰掓。logs鐩�褰曚笅鐨勬枃浠�...
+2025-08-06 17:46:27,309 - OperaMonitor - INFO - logs鐩�褰曟枃浠跺凡鍘嬬缉涓�: logs_backup_20250806_174626.zip
+2025-08-06 17:46:27,358 - OperaMonitor - INFO - 错误输出:
+ZipArchiveHelper : The process cannot access the file 'C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standal
+one\dist\logs\opera_task.log' because it is being used by another process.
+At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:63
+2 char:30
++ ... sArchived = ZipArchiveHelper $sourceFilePaths $destinationPath $compr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+    + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+ 
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:46:27,358 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:46:27,358 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:46:27,593 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:46:27,608 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:46:27,608 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:46:27,608 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:46:27,608 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:46:27,608 - OperaTask - INFO - 分析结果:
+2025-08-06 17:46:27,609 - OperaTask - INFO -   Check Standby发现 2 个潜在问题:
+2025-08-06 17:46:27,609 - OperaTask - INFO -     - + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+2025-08-06 17:46:27,609 - OperaTask - INFO -     - + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+2025-08-06 17:46:27,609 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:46:27,609 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:46:27,609 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:46:27,609 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:46:27,609 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:46:27,610 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:27,610 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:46:27,610 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:38,333 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:46:38,334 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:38,334 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:46:38,334 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:38,511 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:46:38,514 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:46:38,514 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:46:38,515 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:46:38,515 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:46:38,515 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:46:38,515 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:46:38,515 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:46:38,515 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:46:38,515 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:46:38,802 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:46:38,807 - OperaMonitor - INFO - 姝ｅ湪鍘嬬缉褰掓。logs鐩�褰曚笅鐨勬枃浠�...
+2025-08-06 17:46:40,105 - OperaMonitor - INFO - logs鐩�褰曟枃浠跺凡鍘嬬缉涓�: logs_backup_20250806_174639.zip
+2025-08-06 17:46:40,150 - OperaMonitor - INFO - 错误输出:
+ZipArchiveHelper : The process cannot access the file 'C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standal
+one\dist\logs\opera_task.log' because it is being used by another process.
+At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:63
+2 char:30
++ ... sArchived = ZipArchiveHelper $sourceFilePaths $destinationPath $compr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+    + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+ 
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:46:40,150 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:46:40,150 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:46:40,380 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:46:40,394 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:46:40,394 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:46:40,394 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:46:40,395 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:46:40,395 - OperaTask - INFO - 分析结果:
+2025-08-06 17:46:40,395 - OperaTask - INFO -   Check Standby发现 2 个潜在问题:
+2025-08-06 17:46:40,395 - OperaTask - INFO -     - + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+2025-08-06 17:46:40,395 - OperaTask - INFO -     - + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+2025-08-06 17:46:40,395 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:46:40,395 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:46:40,395 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:46:40,395 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:46:40,396 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:46:40,396 - OperaTask - INFO - ==================================================
+2025-08-06 17:46:40,396 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:46:40,396 - OperaTask - INFO - ==================================================
+2025-08-06 17:52:16,500 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 17:52:16,501 - OperaTask - INFO - ==================================================
+2025-08-06 17:52:16,501 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:52:16,502 - OperaTask - INFO - ==================================================
+2025-08-06 17:52:16,697 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:52:16,699 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 17:52:16,699 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:52:16,700 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 17:52:16,700 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 17:52:16,700 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:52:16,701 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:52:16,701 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:52:16,701 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:52:16,702 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:52:16,755 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:52:16,759 - OperaMonitor - INFO - 正在压缩归档logs目录下的文件...
+2025-08-06 17:52:18,312 - OperaMonitor - INFO - logs目录文件已压缩为: logs_backup_20250806_175217.zip
+2025-08-06 17:52:18,402 - OperaMonitor - INFO - 错误输出:
+ZipArchiveHelper : The process cannot access the file 'C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log' because it is being used by an
+other process.
+At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:632 char:30
++ ... sArchived = ZipArchiveHelper $sourceFilePaths $destinationPath $compr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+    + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+ 
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:52:18,405 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:52:18,408 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:52:18,500 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:52:18,516 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:52:18,517 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:52:18,518 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:52:18,518 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:52:18,518 - OperaTask - INFO - 分析结果:
+2025-08-06 17:52:18,519 - OperaTask - INFO -   Check Standby发现 2 个潜在问题:
+2025-08-06 17:52:18,519 - OperaTask - INFO -     - + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+2025-08-06 17:52:18,519 - OperaTask - INFO -     - + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+2025-08-06 17:52:18,520 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:52:18,520 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:52:18,520 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:52:18,521 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 17:52:18,521 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:52:18,521 - OperaTask - INFO - ==================================================
+2025-08-06 17:52:18,522 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:52:18,522 - OperaTask - INFO - ==================================================
+2025-08-06 18:04:40,342 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 18:04:40,349 - OperaTask - INFO - ==================================================
+2025-08-06 18:04:40,350 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:04:40,350 - OperaTask - INFO - ==================================================
+2025-08-06 18:04:40,547 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:04:40,549 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 18:04:40,550 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:04:40,551 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 18:04:40,551 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 18:04:40,552 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:04:40,552 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:04:40,552 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:04:40,553 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:04:40,553 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:04:40,608 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:04:40,611 - OperaMonitor - INFO - 正在压缩归档logs目录下的文件...
+2025-08-06 18:04:41,115 - OperaMonitor - INFO - logs目录下没有可压缩的文件
+2025-08-06 18:04:41,160 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:04:41,162 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:04:41,162 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:04:41,235 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:04:41,248 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:04:41,249 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:04:41,250 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:04:41,250 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:04:41,250 - OperaTask - INFO - 分析结果:
+2025-08-06 18:04:41,251 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 18:04:41,251 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:04:41,251 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:04:41,253 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:04:41,256 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:04:41,256 - OperaTask - INFO - ==================================================
+2025-08-06 18:04:41,257 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:04:41,257 - OperaTask - INFO - ==================================================
+2025-08-06 18:13:29,944 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 18:13:29,945 - OperaTask - INFO - ==================================================
+2025-08-06 18:13:29,945 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:13:29,946 - OperaTask - INFO - ==================================================
+2025-08-06 18:13:30,259 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:13:30,261 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 18:13:30,262 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:13:30,262 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 18:13:30,263 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 18:13:30,263 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:13:30,264 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:13:30,264 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:13:30,264 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:13:30,265 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:13:30,311 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:13:30,315 - OperaMonitor - INFO - 正在压缩归档logs目录下的文件...
+2025-08-06 18:13:30,771 - OperaMonitor - INFO - logs目录下没有可压缩的文件
+2025-08-06 18:13:30,830 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:13:30,833 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:13:30,833 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:13:30,882 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:13:30,895 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:13:30,896 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:13:30,897 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:13:30,897 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:13:30,897 - OperaTask - INFO - 分析结果:
+2025-08-06 18:13:30,898 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 18:13:30,898 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:13:30,898 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:13:30,899 - OperaMonitor - ERROR - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:13:30,899 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:13:30,899 - OperaTask - INFO - ==================================================
+2025-08-06 18:13:30,900 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:13:30,900 - OperaTask - INFO - ==================================================
+2025-08-06 18:15:24,346 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 18:15:24,346 - OperaTask - INFO - ==================================================
+2025-08-06 18:15:24,347 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:15:24,347 - OperaTask - INFO - ==================================================
+2025-08-06 18:15:24,526 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:15:24,528 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 18:15:24,529 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:15:24,529 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 18:15:24,530 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 18:15:24,530 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:15:24,531 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:15:24,531 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:15:24,532 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:15:24,532 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:15:24,636 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:15:24,648 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:15:24,648 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:15:24,649 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:15:24,704 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:15:24,723 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:15:24,724 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:15:24,725 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:15:24,725 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:15:24,726 - OperaTask - INFO - 分析结果:
+2025-08-06 18:15:24,726 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 18:15:24,727 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:15:24,727 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:15:24,727 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 18:15:24,751 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 773, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 18:15:24,754 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:15:24,755 - OperaTask - INFO - ==================================================
+2025-08-06 18:15:24,755 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:15:24,756 - OperaTask - INFO - ==================================================
+2025-08-06 18:17:06,201 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 18:17:06,201 - OperaTask - INFO - ==================================================
+2025-08-06 18:17:06,201 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:17:06,201 - OperaTask - INFO - ==================================================
+2025-08-06 18:17:06,375 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:17:06,376 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 18:17:06,377 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:17:06,377 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 18:17:06,377 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 18:17:06,377 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:17:06,377 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:17:06,377 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:17:06,377 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:17:06,378 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:17:06,431 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:17:06,442 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:17:06,442 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:17:06,443 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:17:06,501 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:17:06,514 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:17:06,514 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:17:06,515 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:17:06,515 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:17:06,515 - OperaTask - INFO - 分析结果:
+2025-08-06 18:17:06,515 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 18:17:06,515 - OperaTask - INFO -   HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:17:06,516 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:17:06,516 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 18:17:06,539 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 773, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 18:17:06,541 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:17:06,541 - OperaTask - INFO - ==================================================
+2025-08-06 18:17:06,542 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:17:06,544 - OperaTask - INFO - ==================================================
+2025-08-06 18:22:02,184 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 18:22:02,185 - OperaTask - INFO - ==================================================
+2025-08-06 18:22:02,185 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:22:02,185 - OperaTask - INFO - ==================================================
+2025-08-06 18:22:02,496 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:22:02,498 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 18:22:02,498 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:22:02,498 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 18:22:02,498 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 18:22:02,498 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:22:02,498 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:22:02,499 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:22:02,499 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:22:02,499 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:22:02,715 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:22:02,733 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:22:02,733 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:22:02,734 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:22:02,945 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:22:02,960 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:22:02,960 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:22:02,961 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:22:02,961 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:22:02,961 - OperaTask - INFO - 分析结果:
+2025-08-06 18:22:02,961 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-06 18:22:02,961 - OperaTask - INFO -      未发现问题
+2025-08-06 18:22:02,961 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-06 18:22:02,961 - OperaTask - INFO -      HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 18:22:02,961 - OperaTask - INFO -   3. 总结:
+2025-08-06 18:22:02,961 - OperaTask - INFO -      所有检查正常
+2025-08-06 18:22:02,961 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:22:02,962 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 18:22:02,984 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 777, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 18:22:02,985 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:22:02,986 - OperaTask - INFO - ==================================================
+2025-08-06 18:22:02,986 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:22:02,986 - OperaTask - INFO - ==================================================
+2025-08-06 20:03:38,435 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 20:03:38,435 - OperaTask - INFO - ==================================================
+2025-08-06 20:03:38,436 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 20:03:38,436 - OperaTask - INFO - ==================================================
+2025-08-06 20:03:38,612 - OperaTask - INFO - 初始化监控器...
+2025-08-06 20:03:38,614 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 20:03:38,614 - OperaTask - INFO - 检查配置信息...
+2025-08-06 20:03:38,614 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 20:03:38,615 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 20:03:38,615 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 20:03:38,615 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 20:03:38,615 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 20:03:38,615 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 20:03:38,615 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 20:03:38,830 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 20:03:38,846 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 20:03:38,846 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 20:03:38,847 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 20:03:39,111 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 20:03:39,129 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 20:03:39,130 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 20:03:39,130 - OperaTask - INFO - 分析执行结果...
+2025-08-06 20:03:39,175 - OperaTask - INFO - 结果分析完成
+2025-08-06 20:03:39,176 - OperaTask - INFO - 分析结果:
+2025-08-06 20:03:39,176 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-06 20:03:39,176 - OperaTask - INFO -      未发现问题
+2025-08-06 20:03:39,176 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-06 20:03:39,176 - OperaTask - INFO -      HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 20:03:39,176 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-06 20:03:39,176 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-06 20:03:39,177 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-06 20:03:39,177 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-06 20:03:39,177 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-06 20:03:39,177 - OperaTask - INFO -      日志目录: 1 个文件，总大小 0.05 MB
+2025-08-06 20:03:39,177 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-06 20:03:39,177 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 105.5 GB，使用率 29.3%
+2025-08-06 20:03:39,178 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-06 20:03:39,178 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-06 20:03:39,178 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-06 20:03:39,178 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-06 20:03:39,178 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-06 20:03:39,178 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-06 20:03:39,178 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-06 20:03:39,178 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-06 20:03:39,179 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-06 20:03:39,179 - OperaTask - INFO -      历史错误统计: 最近检测到 4 个错误
+2025-08-06 20:03:39,179 - OperaTask - INFO -      环境问题: 检测到 6 次Oracle客户端问题
+2025-08-06 20:03:39,179 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-06 20:03:39,179 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-06 20:03:39,179 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-06 20:03:39,179 - OperaTask - INFO -   8. 安全和合规分析:
+2025-08-06 20:03:39,179 - OperaTask - INFO -      角色安全: 无法确认数据库角色
+2025-08-06 20:03:39,179 - OperaTask - INFO -      保护模式: 无法获取保护模式信息
+2025-08-06 20:03:39,180 - OperaTask - INFO -      连接安全: 未检测到明显的连接安全问题
+2025-08-06 20:03:39,180 - OperaTask - INFO -      合规检查: 建议定期审计Data Guard配置
+2025-08-06 20:03:39,180 - OperaTask - INFO -      合规检查: 建议验证备库数据加密状态
+2025-08-06 20:03:39,180 - OperaTask - INFO -      合规检查: 建议检查归档日志传输加密
+2025-08-06 20:03:39,180 - OperaTask - INFO -   9. 运维建议:
+2025-08-06 20:03:39,180 - OperaTask - INFO -      性能优化: 定期监控同步延迟时间
+2025-08-06 20:03:39,180 - OperaTask - INFO -      性能优化: 考虑调整LOG_ARCHIVE_DEST_2参数
+2025-08-06 20:03:39,180 - OperaTask - INFO -      维护建议: 建议在业务低峰期进行维护操作
+2025-08-06 20:03:39,180 - OperaTask - INFO -      维护建议: 定期清理过期的归档日志文件
+2025-08-06 20:03:39,180 - OperaTask - INFO -      维护建议: 定期检查备库数据文件完整性
+2025-08-06 20:03:39,180 - OperaTask - INFO -      监控建议: 建议增加磁盘空间监控
+2025-08-06 20:03:39,181 - OperaTask - INFO -      监控建议: 建议设置同步延迟阈值告警
+2025-08-06 20:03:39,181 - OperaTask - INFO -   10. 维护窗口规划:
+2025-08-06 20:03:39,181 - OperaTask - INFO -      定期维护: 建议在 2025-08-07 02:00 进行定期维护
+2025-08-06 20:03:39,181 - OperaTask - INFO -      维护内容: 日常检查和性能优化
+2025-08-06 20:03:39,181 - OperaTask - INFO -      维护清单: 检查归档日志清理策略
+2025-08-06 20:03:39,181 - OperaTask - INFO -      维护清单: 验证备库同步状态
+2025-08-06 20:03:39,181 - OperaTask - INFO -      维护清单: 检查磁盘空间使用情况
+2025-08-06 20:03:39,181 - OperaTask - INFO -      维护清单: 更新监控配置参数
+2025-08-06 20:03:39,181 - OperaTask - INFO -   11. 综合总结:
+2025-08-06 20:03:39,182 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-06 20:03:39,182 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-06 20:03:39,182 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-06 20:03:39,182 - OperaTask - INFO -      容量状态: 正常
+2025-08-06 20:03:39,182 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-06 20:03:39,182 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-06 20:03:39,182 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 20:03:39,183 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 20:03:39,335 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1212, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 20:03:39,339 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 20:03:39,339 - OperaTask - INFO - ==================================================
+2025-08-06 20:03:39,339 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 20:03:39,340 - OperaTask - INFO - ==================================================
+2025-08-06 20:22:44,445 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 20:22:44,446 - OperaTask - INFO - ==================================================
+2025-08-06 20:22:44,447 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 20:22:44,447 - OperaTask - INFO - ==================================================
+2025-08-06 20:22:44,623 - OperaTask - INFO - 初始化监控器...
+2025-08-06 20:22:44,628 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 20:22:44,630 - OperaTask - INFO - 检查配置信息...
+2025-08-06 20:22:44,632 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 20:22:44,633 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 20:22:44,633 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 20:22:44,633 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 20:22:44,634 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 20:22:44,634 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 20:22:44,635 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 20:22:44,685 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 20:22:44,698 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 20:22:44,699 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 20:22:44,699 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 20:22:44,830 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 20:22:44,847 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 20:22:44,848 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 20:22:44,849 - OperaTask - INFO - 分析执行结果...
+2025-08-06 20:22:44,904 - OperaTask - INFO - 结果分析完成
+2025-08-06 20:22:44,906 - OperaTask - INFO - 分析结果:
+2025-08-06 20:22:44,907 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-06 20:22:44,907 - OperaTask - INFO -      未发现问题
+2025-08-06 20:22:44,910 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-06 20:22:44,911 - OperaTask - INFO -      HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 20:22:44,913 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-06 20:22:44,913 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-06 20:22:44,914 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-06 20:22:44,915 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-06 20:22:44,915 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-06 20:22:44,916 - OperaTask - INFO -      日志目录: 1 个文件，总大小 0.06 MB
+2025-08-06 20:22:44,916 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-06 20:22:44,917 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 105.5 GB，使用率 29.3%
+2025-08-06 20:22:44,918 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-06 20:22:44,920 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-06 20:22:44,920 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-06 20:22:44,921 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-06 20:22:44,922 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-06 20:22:44,922 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-06 20:22:44,922 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-06 20:22:44,923 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-06 20:22:44,923 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-06 20:22:44,924 - OperaTask - INFO -      历史错误统计: 最近检测到 2 个错误
+2025-08-06 20:22:44,924 - OperaTask - INFO -      环境问题: 检测到 3 次Oracle客户端问题
+2025-08-06 20:22:44,925 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-06 20:22:44,925 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-06 20:22:44,925 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-06 20:22:44,926 - OperaTask - INFO -   8. 安全和合规分析:
+2025-08-06 20:22:44,926 - OperaTask - INFO -      角色安全: 无法确认数据库角色
+2025-08-06 20:22:44,926 - OperaTask - INFO -      保护模式: 无法获取保护模式信息
+2025-08-06 20:22:44,927 - OperaTask - INFO -      连接安全: 未检测到明显的连接安全问题
+2025-08-06 20:22:44,927 - OperaTask - INFO -      合规检查: 建议定期审计Data Guard配置
+2025-08-06 20:22:44,928 - OperaTask - INFO -      合规检查: 建议验证备库数据加密状态
+2025-08-06 20:22:44,928 - OperaTask - INFO -      合规检查: 建议检查归档日志传输加密
+2025-08-06 20:22:44,928 - OperaTask - INFO -   9. 运维建议:
+2025-08-06 20:22:44,929 - OperaTask - INFO -      性能优化: 定期监控同步延迟时间
+2025-08-06 20:22:44,929 - OperaTask - INFO -      性能优化: 考虑调整LOG_ARCHIVE_DEST_2参数
+2025-08-06 20:22:44,929 - OperaTask - INFO -      维护建议: 建议在业务低峰期进行维护操作
+2025-08-06 20:22:44,930 - OperaTask - INFO -      维护建议: 定期清理过期的归档日志文件
+2025-08-06 20:22:44,930 - OperaTask - INFO -      维护建议: 定期检查备库数据文件完整性
+2025-08-06 20:22:44,930 - OperaTask - INFO -      监控建议: 建议增加磁盘空间监控
+2025-08-06 20:22:44,930 - OperaTask - INFO -      监控建议: 建议设置同步延迟阈值告警
+2025-08-06 20:22:44,931 - OperaTask - INFO -   10. 维护窗口规划:
+2025-08-06 20:22:44,931 - OperaTask - INFO -      定期维护: 建议在 2025-08-07 02:00 进行定期维护
+2025-08-06 20:22:44,932 - OperaTask - INFO -      维护内容: 日常检查和性能优化
+2025-08-06 20:22:44,932 - OperaTask - INFO -      维护清单: 检查归档日志清理策略
+2025-08-06 20:22:44,933 - OperaTask - INFO -      维护清单: 验证备库同步状态
+2025-08-06 20:22:44,933 - OperaTask - INFO -      维护清单: 检查磁盘空间使用情况
+2025-08-06 20:22:44,933 - OperaTask - INFO -      维护清单: 更新监控配置参数
+2025-08-06 20:22:44,934 - OperaTask - INFO -   11. 综合总结:
+2025-08-06 20:22:44,934 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-06 20:22:44,934 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-06 20:22:44,935 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-06 20:22:44,935 - OperaTask - INFO -      容量状态: 正常
+2025-08-06 20:22:44,935 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-06 20:22:44,936 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-06 20:22:44,936 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 20:22:44,936 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 20:22:44,961 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1212, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 20:22:44,967 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 20:22:44,968 - OperaTask - INFO - ==================================================
+2025-08-06 20:22:44,968 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 20:22:44,968 - OperaTask - INFO - ==================================================
+2025-08-06 22:17:44,617 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 22:17:44,618 - OperaTask - INFO - ==================================================
+2025-08-06 22:17:44,619 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 22:17:44,619 - OperaTask - INFO - ==================================================
+2025-08-06 22:17:44,871 - OperaTask - INFO - 初始化监控器...
+2025-08-06 22:17:44,873 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 22:17:44,874 - OperaTask - INFO - 检查配置信息...
+2025-08-06 22:17:44,875 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 22:17:44,875 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 22:17:44,876 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 22:17:44,876 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 22:17:44,877 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 22:17:44,877 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 22:17:44,878 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 22:17:44,933 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 22:17:44,947 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 22:17:44,947 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 22:17:44,947 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 22:17:44,996 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 22:17:45,018 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 22:17:45,019 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 22:17:45,019 - OperaTask - INFO - 分析执行结果...
+2025-08-06 22:17:45,071 - OperaTask - INFO - 结果分析完成
+2025-08-06 22:17:45,072 - OperaTask - INFO - 分析结果:
+2025-08-06 22:17:45,072 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-06 22:17:45,073 - OperaTask - INFO -      未发现问题
+2025-08-06 22:17:45,073 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-06 22:17:45,073 - OperaTask - INFO -      HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 22:17:45,075 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-06 22:17:45,083 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-06 22:17:45,084 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-06 22:17:45,084 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-06 22:17:45,085 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-06 22:17:45,085 - OperaTask - INFO -      日志目录: 1 个文件，总大小 0.07 MB
+2025-08-06 22:17:45,085 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-06 22:17:45,086 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.9 GB，使用率 27.7%
+2025-08-06 22:17:45,087 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-06 22:17:45,088 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-06 22:17:45,089 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-06 22:17:45,089 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-06 22:17:45,089 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-06 22:17:45,090 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-06 22:17:45,091 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-06 22:17:45,092 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-06 22:17:45,092 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-06 22:17:45,093 - OperaTask - INFO -      历史错误统计: 最近检测到 2 个错误
+2025-08-06 22:17:45,093 - OperaTask - INFO -      环境问题: 检测到 3 次Oracle客户端问题
+2025-08-06 22:17:45,093 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-06 22:17:45,094 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-06 22:17:45,094 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-06 22:17:45,094 - OperaTask - INFO -   8. 安全和合规分析:
+2025-08-06 22:17:45,095 - OperaTask - INFO -      角色安全: 无法确认数据库角色
+2025-08-06 22:17:45,095 - OperaTask - INFO -      保护模式: 无法获取保护模式信息
+2025-08-06 22:17:45,096 - OperaTask - INFO -      连接安全: 未检测到明显的连接安全问题
+2025-08-06 22:17:45,096 - OperaTask - INFO -      合规检查: 建议定期审计Data Guard配置
+2025-08-06 22:17:45,097 - OperaTask - INFO -      合规检查: 建议验证备库数据加密状态
+2025-08-06 22:17:45,097 - OperaTask - INFO -      合规检查: 建议检查归档日志传输加密
+2025-08-06 22:17:45,097 - OperaTask - INFO -   9. 运维建议:
+2025-08-06 22:17:45,098 - OperaTask - INFO -      性能优化: 定期监控同步延迟时间
+2025-08-06 22:17:45,099 - OperaTask - INFO -      性能优化: 考虑调整LOG_ARCHIVE_DEST_2参数
+2025-08-06 22:17:45,099 - OperaTask - INFO -      维护建议: 建议在业务低峰期进行维护操作
+2025-08-06 22:17:45,099 - OperaTask - INFO -      维护建议: 定期清理过期的归档日志文件
+2025-08-06 22:17:45,100 - OperaTask - INFO -      维护建议: 定期检查备库数据文件完整性
+2025-08-06 22:17:45,100 - OperaTask - INFO -      监控建议: 建议增加磁盘空间监控
+2025-08-06 22:17:45,101 - OperaTask - INFO -      监控建议: 建议设置同步延迟阈值告警
+2025-08-06 22:17:45,101 - OperaTask - INFO -   10. 维护窗口规划:
+2025-08-06 22:17:45,102 - OperaTask - INFO -      定期维护: 建议在 2025-08-07 02:00 进行定期维护
+2025-08-06 22:17:45,102 - OperaTask - INFO -      维护内容: 日常检查和性能优化
+2025-08-06 22:17:45,102 - OperaTask - INFO -      维护清单: 检查归档日志清理策略
+2025-08-06 22:17:45,103 - OperaTask - INFO -      维护清单: 验证备库同步状态
+2025-08-06 22:17:45,103 - OperaTask - INFO -      维护清单: 检查磁盘空间使用情况
+2025-08-06 22:17:45,103 - OperaTask - INFO -      维护清单: 更新监控配置参数
+2025-08-06 22:17:45,104 - OperaTask - INFO -   11. 综合总结:
+2025-08-06 22:17:45,104 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-06 22:17:45,105 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-06 22:17:45,105 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-06 22:17:45,105 - OperaTask - INFO -      容量状态: 正常
+2025-08-06 22:17:45,106 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-06 22:17:45,107 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-06 22:17:45,108 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 22:17:45,110 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 22:17:45,249 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1226, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 22:17:45,254 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 22:17:45,254 - OperaTask - INFO - ==================================================
+2025-08-06 22:17:45,255 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 22:17:45,255 - OperaTask - INFO - ==================================================
+2025-08-06 22:35:20,706 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 22:35:20,712 - OperaTask - INFO - ==================================================
+2025-08-06 22:35:20,713 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 22:35:20,714 - OperaTask - INFO - ==================================================
+2025-08-06 22:35:20,892 - OperaTask - INFO - 初始化监控器...
+2025-08-06 22:35:20,894 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 22:35:20,895 - OperaTask - INFO - 检查配置信息...
+2025-08-06 22:35:20,896 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 22:35:20,897 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 22:35:20,898 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 22:35:20,898 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 22:35:20,898 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 22:35:20,899 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 22:35:20,899 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 22:35:20,965 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 22:35:20,983 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 22:35:20,984 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 22:35:20,985 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 22:35:21,036 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 22:35:21,055 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 22:35:21,056 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 22:35:21,057 - OperaTask - INFO - 分析执行结果...
+2025-08-06 22:35:21,109 - OperaTask - INFO - 结果分析完成
+2025-08-06 22:35:21,110 - OperaTask - INFO - 分析结果:
+2025-08-06 22:35:21,110 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-06 22:35:21,111 - OperaTask - INFO -      未发现问题
+2025-08-06 22:35:21,111 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-06 22:35:21,112 - OperaTask - INFO -      HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 22:35:21,112 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-06 22:35:21,112 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-06 22:35:21,115 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-06 22:35:21,116 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-06 22:35:21,117 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-06 22:35:21,118 - OperaTask - INFO -      日志目录: 1 个文件，总大小 0.08 MB
+2025-08-06 22:35:21,133 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-06 22:35:21,133 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.8 GB，使用率 27.7%
+2025-08-06 22:35:21,134 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-06 22:35:21,135 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-06 22:35:21,136 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-06 22:35:21,137 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-06 22:35:21,138 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-06 22:35:21,138 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-06 22:35:21,139 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-06 22:35:21,139 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-06 22:35:21,139 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-06 22:35:21,140 - OperaTask - INFO -      历史错误统计: 最近检测到 2 个错误
+2025-08-06 22:35:21,140 - OperaTask - INFO -      环境问题: 检测到 3 次Oracle客户端问题
+2025-08-06 22:35:21,141 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-06 22:35:21,141 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-06 22:35:21,143 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-06 22:35:21,144 - OperaTask - INFO -   8. 综合总结:
+2025-08-06 22:35:21,144 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-06 22:35:21,145 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-06 22:35:21,145 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-06 22:35:21,145 - OperaTask - INFO -      容量状态: 正常
+2025-08-06 22:35:21,146 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-06 22:35:21,146 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-06 22:35:21,146 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 22:35:21,147 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 22:35:21,291 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1103, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 22:35:21,295 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 22:35:21,295 - OperaTask - INFO - ==================================================
+2025-08-06 22:35:21,296 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 22:35:21,297 - OperaTask - INFO - ==================================================
+2025-08-06 22:54:59,256 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-06 22:54:59,257 - OperaTask - INFO - ==================================================
+2025-08-06 22:54:59,257 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 22:54:59,257 - OperaTask - INFO - ==================================================
+2025-08-06 22:54:59,430 - OperaTask - INFO - 初始化监控器...
+2025-08-06 22:54:59,432 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-06 22:54:59,432 - OperaTask - INFO - 检查配置信息...
+2025-08-06 22:54:59,433 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-06 22:54:59,433 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-06 22:54:59,434 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 22:54:59,434 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 22:54:59,434 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 22:54:59,435 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 22:54:59,435 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 22:54:59,490 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 22:54:59,503 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 22:54:59,503 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 22:54:59,504 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 22:54:59,570 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 22:54:59,582 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 22:54:59,583 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 22:54:59,583 - OperaTask - INFO - 分析执行结果...
+2025-08-06 22:54:59,638 - OperaTask - INFO - 结果分析完成
+2025-08-06 22:54:59,639 - OperaTask - INFO - 分析结果:
+2025-08-06 22:54:59,639 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-06 22:54:59,640 - OperaTask - INFO -      未发现问题
+2025-08-06 22:54:59,640 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-06 22:54:59,641 - OperaTask - INFO -      HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html
+2025-08-06 22:54:59,641 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-06 22:54:59,641 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-06 22:54:59,642 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-06 22:54:59,642 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-06 22:54:59,642 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-06 22:54:59,643 - OperaTask - INFO -      日志目录: 1 个文件，总大小 0.09 MB
+2025-08-06 22:54:59,643 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-06 22:54:59,644 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.8 GB，使用率 27.7%
+2025-08-06 22:54:59,644 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-06 22:54:59,644 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-06 22:54:59,645 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-06 22:54:59,645 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-06 22:54:59,645 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-06 22:54:59,647 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-06 22:54:59,647 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-06 22:54:59,648 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-06 22:54:59,649 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-06 22:54:59,649 - OperaTask - INFO -      历史错误统计: 最近检测到 2 个错误
+2025-08-06 22:54:59,650 - OperaTask - INFO -      环境问题: 检测到 6 次Oracle客户端问题
+2025-08-06 22:54:59,650 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-06 22:54:59,651 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-06 22:54:59,651 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-06 22:54:59,652 - OperaTask - INFO -   8. 综合总结:
+2025-08-06 22:54:59,652 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-06 22:54:59,653 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-06 22:54:59,653 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-06 22:54:59,654 - OperaTask - INFO -      容量状态: 正常
+2025-08-06 22:54:59,654 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-06 22:54:59,654 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-06 22:54:59,656 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 22:54:59,656 - OperaMonitor - WARNING - HTML报告文件不存在: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\daily_report.html，将继续发送邮件但不包含HTML报告附件
+2025-08-06 22:54:59,678 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1089, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 22:54:59,681 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 22:54:59,682 - OperaTask - INFO - ==================================================
+2025-08-06 22:54:59,682 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 22:54:59,682 - OperaTask - INFO - ==================================================
+2025-08-07 10:37:00,866 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-07 10:37:00,867 - OperaTask - INFO - ==================================================
+2025-08-07 10:37:00,867 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 10:37:00,867 - OperaTask - INFO - ==================================================
+2025-08-07 10:37:01,062 - OperaTask - INFO - 初始化监控器...
+2025-08-07 10:37:01,072 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-07 10:37:01,073 - OperaTask - INFO - 检查配置信息...
+2025-08-07 10:37:01,074 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-07 10:37:01,075 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-07 10:37:01,076 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 10:37:01,077 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 10:37:01,078 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 10:37:01,078 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 10:37:01,080 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 10:37:01,143 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 10:37:01,156 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 10:37:01,157 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 10:37:01,157 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 10:37:01,217 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 10:37:01,233 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 10:37:01,234 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 10:37:01,234 - OperaTask - INFO - 分析执行结果...
+2025-08-07 10:37:01,296 - OperaTask - INFO - 结果分析完成
+2025-08-07 10:37:01,297 - OperaTask - INFO - 分析结果:
+2025-08-07 10:37:01,297 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 10:37:01,297 - OperaTask - INFO -      未发现问题
+2025-08-07 10:37:01,298 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 10:37:01,298 - OperaTask - INFO -      1. Standby Database - General Database Information:
+2025-08-07 10:37:01,298 - OperaTask - INFO -      PROTECTION MODE: 1
+2025-08-07 10:37:01,298 - OperaTask - INFO -      START TIME: 1
+2025-08-07 10:37:01,299 - OperaTask - INFO -      SYSTEM DATE: 1
+2025-08-07 10:37:01,299 - OperaTask - INFO -   2. Production Database - General Database Information:
+2025-08-07 10:37:01,299 - OperaTask - INFO -      START TIME: 1
+2025-08-07 10:37:01,299 - OperaTask - INFO -      SYSTEM DATE: 1
+2025-08-07 10:37:01,300 - OperaTask - INFO -   3. Opera Version Information:
+2025-08-07 10:37:01,300 - OperaTask - INFO -      Opera Version: 5.0.06.19 E00005
+2025-08-07 10:37:01,300 - OperaTask - INFO -   4. Oracle Version Information:
+2025-08-07 10:37:01,300 - OperaTask - INFO -      Oracle Version: Patch 28412269 applied
+2025-08-07 10:37:01,301 - OperaTask - INFO -   5. List of last 3 days backups (最后一条数据):
+2025-08-07 10:37:01,301 - OperaTask - INFO -      SESSION_RECID: 16398
+2025-08-07 10:37:01,301 - OperaTask - INFO -      END_TIME: 07-AUG-2025 08:01
+2025-08-07 10:37:01,301 - OperaTask - INFO -      OUTPUT_MBYTES: 07-AUG-2025 08:16
+2025-08-07 10:37:01,302 - OperaTask - INFO -      STATUS: 26,520
+2025-08-07 10:37:01,302 - OperaTask - INFO -      INPUT_TYPE: COMPLETED
+2025-08-07 10:37:01,302 - OperaTask - INFO -      DAY: DB FULL
+2025-08-07 10:37:01,303 - OperaTask - INFO -      TIME_TAKEN: Thursday
+2025-08-07 10:37:01,303 - OperaTask - INFO -      OUTPUT_INSTANCE: 00:15:38
+2025-08-07 10:37:01,303 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 10:37:01,303 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 10:37:01,304 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 10:37:01,304 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 10:37:01,305 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 10:37:01,305 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.11 MB
+2025-08-07 10:37:01,305 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 10:37:01,306 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.8 GB，使用率 27.7%
+2025-08-07 10:37:01,306 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 10:37:01,307 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 10:37:01,307 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 10:37:01,307 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 10:37:01,308 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 10:37:01,308 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 10:37:01,308 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 10:37:01,309 - OperaTask - INFO -      告警级别: 🟢 一般 - 发现轻微问题，建议关注
+2025-08-07 10:37:01,309 - OperaTask - INFO -      总错误数: 0
+2025-08-07 10:37:01,309 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-07 10:37:01,310 - OperaTask - INFO -      历史错误统计: 最近检测到 2 个错误
+2025-08-07 10:37:01,310 - OperaTask - INFO -      环境问题: 检测到 6 次Oracle客户端问题
+2025-08-07 10:37:01,310 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-07 10:37:01,311 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-07 10:37:01,311 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-07 10:37:01,311 - OperaTask - INFO -   8. 综合总结:
+2025-08-07 10:37:01,312 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-07 10:37:01,312 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-07 10:37:01,312 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 10:37:01,313 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 10:37:01,313 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 10:37:01,313 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-07 10:37:01,314 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 10:37:01,339 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1365, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-07 10:37:01,342 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 10:37:01,342 - OperaTask - INFO - ==================================================
+2025-08-07 10:37:01,342 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 10:37:01,343 - OperaTask - INFO - ==================================================
+2025-08-07 11:57:18,073 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-07 11:57:18,074 - OperaTask - INFO - ==================================================
+2025-08-07 11:57:18,074 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 11:57:18,074 - OperaTask - INFO - ==================================================
+2025-08-07 11:57:18,255 - OperaTask - INFO - 初始化监控器...
+2025-08-07 11:57:18,256 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-07 11:57:18,257 - OperaTask - INFO - 检查配置信息...
+2025-08-07 11:57:18,257 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-07 11:57:18,257 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-07 11:57:18,257 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 11:57:18,257 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 11:57:18,257 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 11:57:18,257 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 11:57:18,257 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 11:57:18,710 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 11:57:18,726 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 11:57:18,726 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 11:57:18,726 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 11:57:19,066 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 11:57:19,086 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 11:57:19,086 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 11:57:19,087 - OperaTask - INFO - 分析执行结果...
+2025-08-07 11:57:19,105 - OperaTask - INFO - 结果分析完成
+2025-08-07 11:57:19,105 - OperaTask - INFO - 分析结果:
+2025-08-07 11:57:19,106 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 11:57:19,106 - OperaTask - INFO -      未发现问题
+2025-08-07 11:57:19,106 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 11:57:19,106 - OperaTask - INFO -      Standby Database 备库信息:
+2025-08-07 11:57:19,106 - OperaTask - INFO -      STATUS: MOUNTED
+2025-08-07 11:57:19,106 - OperaTask - INFO -      HOST NAME: S-AA-H7970-DB
+2025-08-07 11:57:19,106 - OperaTask - INFO -      DATABASE ROLE: PHYSICAL STANDBY
+2025-08-07 11:57:19,106 - OperaTask - INFO -      PROTECTION MODE: MAXIMUM PERFORMANCE
+2025-08-07 11:57:19,106 - OperaTask - INFO -      START TIME: 22-JUL-2025 16:36
+2025-08-07 11:57:19,106 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 11:57:19,106 - OperaTask - INFO -    Production Database 主库信息:
+2025-08-07 11:57:19,106 - OperaTask - INFO -      STATUS: OPEN
+2025-08-07 11:57:19,106 - OperaTask - INFO -      HOST NAME: S-AA-H7970-FO
+2025-08-07 11:57:19,107 - OperaTask - INFO -      DATABASE ROLE: PRIMARY
+2025-08-07 11:57:19,107 - OperaTask - INFO -      START TIME: 22-APR-2025 01:44
+2025-08-07 11:57:19,107 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 11:57:19,107 - OperaTask - INFO -    服务器运行时间分析:
+2025-08-07 11:57:19,107 - OperaTask - INFO -      Standby数据库运行时间: 15天 <span style='color: green; font-weight: bold;'>状态正常</span>
+2025-08-07 11:57:19,107 - OperaTask - INFO -      Production数据库运行时间: 107天 <span style='color: red; font-weight: bold;'>立即关注，建议立即重启服务器以释放资源</span>
+2025-08-07 11:57:19,107 - OperaTask - INFO -    Opera Version Information:
+2025-08-07 11:57:19,107 - OperaTask - INFO -      Opera Version: 5.0.06.19 E00005
+2025-08-07 11:57:19,107 - OperaTask - INFO -    Oracle Version Information:
+2025-08-07 11:57:19,107 - OperaTask - INFO -      Oracle Version: Patch 28412269 applied
+2025-08-07 11:57:19,107 - OperaTask - INFO -      Platform: Microsoft Windows x86 64-bit
+2025-08-07 11:57:19,107 - OperaTask - INFO -    List of last 3 days backups (最后一条数据):
+2025-08-07 11:57:19,107 - OperaTask - INFO -      SESSION_RECID: 16398
+2025-08-07 11:57:19,107 - OperaTask - INFO -      START_TIME: 07-AUG-2025 08:01
+2025-08-07 11:57:19,107 - OperaTask - INFO -      END_TIME: 07-AUG-2025 08:16
+2025-08-07 11:57:19,108 - OperaTask - INFO -      OUTPUT_MBYTES: 26,520
+2025-08-07 11:57:19,108 - OperaTask - INFO -      STATUS: COMPLETED
+2025-08-07 11:57:19,108 - OperaTask - INFO -      INPUT_TYPE: DB FULL
+2025-08-07 11:57:19,108 - OperaTask - INFO -      DAY: Thursday
+2025-08-07 11:57:19,108 - OperaTask - INFO -      TIME_TAKEN: 00:15:38
+2025-08-07 11:57:19,108 - OperaTask - INFO -      OUTPUT_INSTANCE: 1
+2025-08-07 11:57:19,108 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 11:57:19,108 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 11:57:19,108 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 11:57:19,108 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 11:57:19,108 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 11:57:19,108 - OperaTask - INFO -      表空间统计: 共 32 个表空间
+2025-08-07 11:57:19,108 - OperaTask - INFO -      总SIZE (G): 149.13 GB
+2025-08-07 11:57:19,109 - OperaTask - INFO -      总MAX SIZE (G): 337.43 GB
+2025-08-07 11:57:19,109 - OperaTask - INFO -      整体使用率: 44.20%
+2025-08-07 11:57:19,109 - OperaTask - INFO -      ✅ 整体使用率良好
+2025-08-07 11:57:19,109 - OperaTask - INFO -      ✅ 所有表空间使用率正常
+2025-08-07 11:57:19,109 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.12 MB
+2025-08-07 11:57:19,109 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 11:57:19,109 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.7 GB，使用率 27.8%
+2025-08-07 11:57:19,109 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 11:57:19,109 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 11:57:19,109 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 11:57:19,109 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 11:57:19,109 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 11:57:19,109 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 11:57:19,109 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 11:57:19,109 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-07 11:57:19,110 - OperaTask - INFO -   7. 综合总结:
+2025-08-07 11:57:19,110 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-07 11:57:19,110 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-07 11:57:19,110 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 11:57:19,110 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 11:57:19,110 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 11:57:19,110 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-07 11:57:19,110 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 11:57:19,111 - OperaMonitor - ERROR - 发送邮件时出错: ' font-family'
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1573, in send_email_report_service_mode
+KeyError: ' font-family'
+2025-08-07 11:57:19,112 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 11:57:19,112 - OperaTask - INFO - ==================================================
+2025-08-07 11:57:19,112 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 11:57:19,112 - OperaTask - INFO - ==================================================
+2025-08-07 11:59:49,124 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-07 11:59:49,125 - OperaTask - INFO - ==================================================
+2025-08-07 11:59:49,126 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 11:59:49,126 - OperaTask - INFO - ==================================================
+2025-08-07 11:59:49,299 - OperaTask - INFO - 初始化监控器...
+2025-08-07 11:59:49,301 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-07 11:59:49,302 - OperaTask - INFO - 检查配置信息...
+2025-08-07 11:59:49,302 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-07 11:59:49,303 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-07 11:59:49,303 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 11:59:49,303 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 11:59:49,304 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 11:59:49,304 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 11:59:49,304 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 11:59:49,372 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 11:59:49,386 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 11:59:49,387 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 11:59:49,387 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 11:59:49,460 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 11:59:49,486 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 11:59:49,487 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 11:59:49,487 - OperaTask - INFO - 分析执行结果...
+2025-08-07 11:59:49,503 - OperaTask - INFO - 结果分析完成
+2025-08-07 11:59:49,503 - OperaTask - INFO - 分析结果:
+2025-08-07 11:59:49,504 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 11:59:49,504 - OperaTask - INFO -      未发现问题
+2025-08-07 11:59:49,506 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 11:59:49,507 - OperaTask - INFO -      Standby Database 备库信息:
+2025-08-07 11:59:49,509 - OperaTask - INFO -      STATUS: MOUNTED
+2025-08-07 11:59:49,511 - OperaTask - INFO -      HOST NAME: S-AA-H7970-DB
+2025-08-07 11:59:49,513 - OperaTask - INFO -      DATABASE ROLE: PHYSICAL STANDBY
+2025-08-07 11:59:49,514 - OperaTask - INFO -      PROTECTION MODE: MAXIMUM PERFORMANCE
+2025-08-07 11:59:49,515 - OperaTask - INFO -      START TIME: 22-JUL-2025 16:36
+2025-08-07 11:59:49,516 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 11:59:49,517 - OperaTask - INFO -    Production Database 主库信息:
+2025-08-07 11:59:49,518 - OperaTask - INFO -      STATUS: OPEN
+2025-08-07 11:59:49,519 - OperaTask - INFO -      HOST NAME: S-AA-H7970-FO
+2025-08-07 11:59:49,519 - OperaTask - INFO -      DATABASE ROLE: PRIMARY
+2025-08-07 11:59:49,520 - OperaTask - INFO -      START TIME: 22-APR-2025 01:44
+2025-08-07 11:59:49,520 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 11:59:49,521 - OperaTask - INFO -    服务器运行时间分析:
+2025-08-07 11:59:49,521 - OperaTask - INFO -      Standby数据库运行时间: 15天 <span style='color: green; font-weight: bold;'>状态正常</span>
+2025-08-07 11:59:49,522 - OperaTask - INFO -      Production数据库运行时间: 107天 <span style='color: red; font-weight: bold;'>立即关注，建议立即重启服务器以释放资源</span>
+2025-08-07 11:59:49,523 - OperaTask - INFO -    Opera Version Information:
+2025-08-07 11:59:49,524 - OperaTask - INFO -      Opera Version: 5.0.06.19 E00005
+2025-08-07 11:59:49,526 - OperaTask - INFO -    Oracle Version Information:
+2025-08-07 11:59:49,529 - OperaTask - INFO -      Oracle Version: Patch 28412269 applied
+2025-08-07 11:59:49,531 - OperaTask - INFO -      Platform: Microsoft Windows x86 64-bit
+2025-08-07 11:59:49,531 - OperaTask - INFO -    List of last 3 days backups (最后一条数据):
+2025-08-07 11:59:49,532 - OperaTask - INFO -      SESSION_RECID: 16398
+2025-08-07 11:59:49,534 - OperaTask - INFO -      START_TIME: 07-AUG-2025 08:01
+2025-08-07 11:59:49,534 - OperaTask - INFO -      END_TIME: 07-AUG-2025 08:16
+2025-08-07 11:59:49,535 - OperaTask - INFO -      OUTPUT_MBYTES: 26,520
+2025-08-07 11:59:49,535 - OperaTask - INFO -      STATUS: COMPLETED
+2025-08-07 11:59:49,536 - OperaTask - INFO -      INPUT_TYPE: DB FULL
+2025-08-07 11:59:49,536 - OperaTask - INFO -      DAY: Thursday
+2025-08-07 11:59:49,537 - OperaTask - INFO -      TIME_TAKEN: 00:15:38
+2025-08-07 11:59:49,537 - OperaTask - INFO -      OUTPUT_INSTANCE: 1
+2025-08-07 11:59:49,538 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 11:59:49,538 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 11:59:49,539 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 11:59:49,539 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 11:59:49,540 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 11:59:49,541 - OperaTask - INFO -      表空间统计: 共 32 个表空间
+2025-08-07 11:59:49,541 - OperaTask - INFO -      总SIZE (G): 149.13 GB
+2025-08-07 11:59:49,542 - OperaTask - INFO -      总MAX SIZE (G): 337.43 GB
+2025-08-07 11:59:49,542 - OperaTask - INFO -      整体使用率: 44.20%
+2025-08-07 11:59:49,543 - OperaTask - INFO -      ✅ 整体使用率良好
+2025-08-07 11:59:49,543 - OperaTask - INFO -      ✅ 所有表空间使用率正常
+2025-08-07 11:59:49,544 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.13 MB
+2025-08-07 11:59:49,544 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 11:59:49,544 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.7 GB，使用率 27.8%
+2025-08-07 11:59:49,545 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 11:59:49,545 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 11:59:49,546 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 11:59:49,546 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 11:59:49,546 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 11:59:49,547 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 11:59:49,547 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 11:59:49,547 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-07 11:59:49,548 - OperaTask - INFO -   7. 综合总结:
+2025-08-07 11:59:49,548 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-07 11:59:49,549 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-07 11:59:49,549 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 11:59:49,550 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 11:59:49,550 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 11:59:49,551 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-07 11:59:49,551 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 11:59:49,552 - OperaMonitor - ERROR - 发送邮件时出错: ' font-family'
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1573, in send_email_report_service_mode
+KeyError: ' font-family'
+2025-08-07 11:59:49,554 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 11:59:49,554 - OperaTask - INFO - ==================================================
+2025-08-07 11:59:49,555 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 11:59:49,555 - OperaTask - INFO - ==================================================
+2025-08-07 12:05:24,794 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-07 12:05:24,795 - OperaTask - INFO - ==================================================
+2025-08-07 12:05:24,795 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 12:05:24,796 - OperaTask - INFO - ==================================================
+2025-08-07 12:05:24,978 - OperaTask - INFO - 初始化监控器...
+2025-08-07 12:05:24,980 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-07 12:05:24,981 - OperaTask - INFO - 检查配置信息...
+2025-08-07 12:05:24,981 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-07 12:05:24,982 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-07 12:05:24,982 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 12:05:24,983 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 12:05:24,983 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 12:05:24,983 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 12:05:24,984 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 12:05:25,058 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 12:05:25,075 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 12:05:25,076 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 12:05:25,076 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 12:05:25,144 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 12:05:25,160 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 12:05:25,160 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 12:05:25,161 - OperaTask - INFO - 分析执行结果...
+2025-08-07 12:05:25,178 - OperaTask - INFO - 结果分析完成
+2025-08-07 12:05:25,178 - OperaTask - INFO - 分析结果:
+2025-08-07 12:05:25,179 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 12:05:25,179 - OperaTask - INFO -      未发现问题
+2025-08-07 12:05:25,179 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 12:05:25,180 - OperaTask - INFO -      Standby Database 备库信息:
+2025-08-07 12:05:25,180 - OperaTask - INFO -      STATUS: MOUNTED
+2025-08-07 12:05:25,181 - OperaTask - INFO -      HOST NAME: S-AA-H7970-DB
+2025-08-07 12:05:25,181 - OperaTask - INFO -      DATABASE ROLE: PHYSICAL STANDBY
+2025-08-07 12:05:25,181 - OperaTask - INFO -      PROTECTION MODE: MAXIMUM PERFORMANCE
+2025-08-07 12:05:25,182 - OperaTask - INFO -      START TIME: 22-JUL-2025 16:36
+2025-08-07 12:05:25,182 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 12:05:25,186 - OperaTask - INFO -    Production Database 主库信息:
+2025-08-07 12:05:25,186 - OperaTask - INFO -      STATUS: OPEN
+2025-08-07 12:05:25,187 - OperaTask - INFO -      HOST NAME: S-AA-H7970-FO
+2025-08-07 12:05:25,187 - OperaTask - INFO -      DATABASE ROLE: PRIMARY
+2025-08-07 12:05:25,188 - OperaTask - INFO -      START TIME: 22-APR-2025 01:44
+2025-08-07 12:05:25,188 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 12:05:25,189 - OperaTask - INFO -    服务器运行时间分析:
+2025-08-07 12:05:25,189 - OperaTask - INFO -      Standby数据库运行时间: 15天 <span style='color: green; font-weight: bold;'>状态正常</span>
+2025-08-07 12:05:25,193 - OperaTask - INFO -      Production数据库运行时间: 107天 <span style='color: red; font-weight: bold;'>立即关注，建议立即重启服务器以释放资源</span>
+2025-08-07 12:05:25,194 - OperaTask - INFO -    Opera Version Information:
+2025-08-07 12:05:25,196 - OperaTask - INFO -      Opera Version: 5.0.06.19 E00005
+2025-08-07 12:05:25,196 - OperaTask - INFO -    Oracle Version Information:
+2025-08-07 12:05:25,197 - OperaTask - INFO -      Oracle Version: Patch 28412269 applied
+2025-08-07 12:05:25,198 - OperaTask - INFO -      Platform: Microsoft Windows x86 64-bit
+2025-08-07 12:05:25,199 - OperaTask - INFO -    List of last 3 days backups (最后一条数据):
+2025-08-07 12:05:25,199 - OperaTask - INFO -      SESSION_RECID: 16398
+2025-08-07 12:05:25,200 - OperaTask - INFO -      START_TIME: 07-AUG-2025 08:01
+2025-08-07 12:05:25,200 - OperaTask - INFO -      END_TIME: 07-AUG-2025 08:16
+2025-08-07 12:05:25,201 - OperaTask - INFO -      OUTPUT_MBYTES: 26,520
+2025-08-07 12:05:25,201 - OperaTask - INFO -      STATUS: COMPLETED
+2025-08-07 12:05:25,202 - OperaTask - INFO -      INPUT_TYPE: DB FULL
+2025-08-07 12:05:25,202 - OperaTask - INFO -      DAY: Thursday
+2025-08-07 12:05:25,203 - OperaTask - INFO -      TIME_TAKEN: 00:15:38
+2025-08-07 12:05:25,203 - OperaTask - INFO -      OUTPUT_INSTANCE: 1
+2025-08-07 12:05:25,203 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 12:05:25,204 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 12:05:25,204 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 12:05:25,204 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 12:05:25,205 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 12:05:25,205 - OperaTask - INFO -      表空间统计: 共 32 个表空间
+2025-08-07 12:05:25,206 - OperaTask - INFO -      总SIZE (G): 149.13 GB
+2025-08-07 12:05:25,206 - OperaTask - INFO -      总MAX SIZE (G): 337.43 GB
+2025-08-07 12:05:25,206 - OperaTask - INFO -      整体使用率: 44.20%
+2025-08-07 12:05:25,207 - OperaTask - INFO -      ✅ 整体使用率良好
+2025-08-07 12:05:25,207 - OperaTask - INFO -      ✅ 所有表空间使用率正常
+2025-08-07 12:05:25,207 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.14 MB
+2025-08-07 12:05:25,208 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 12:05:25,208 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.7 GB，使用率 27.9%
+2025-08-07 12:05:25,208 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 12:05:25,209 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 12:05:25,209 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 12:05:25,209 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 12:05:25,210 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 12:05:25,210 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 12:05:25,211 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 12:05:25,211 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-07 12:05:25,212 - OperaTask - INFO -   7. 综合总结:
+2025-08-07 12:05:25,213 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-07 12:05:25,213 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-07 12:05:25,213 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 12:05:25,214 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 12:05:25,214 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 12:05:25,214 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-07 12:05:25,215 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 12:05:25,355 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1599, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-07 12:05:25,365 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 12:05:25,366 - OperaTask - INFO - ==================================================
+2025-08-07 12:05:25,367 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 12:05:25,367 - OperaTask - INFO - ==================================================
+2025-08-07 12:42:01,117 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-07 12:42:01,118 - OperaTask - INFO - ==================================================
+2025-08-07 12:42:01,118 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 12:42:01,119 - OperaTask - INFO - ==================================================
+2025-08-07 12:42:01,327 - OperaTask - INFO - 初始化监控器...
+2025-08-07 12:42:01,330 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-07 12:42:01,330 - OperaTask - INFO - 检查配置信息...
+2025-08-07 12:42:01,331 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-07 12:42:01,331 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-07 12:42:01,332 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 12:42:01,332 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 12:42:01,332 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 12:42:01,333 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 12:42:01,333 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 12:42:01,403 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 12:42:01,417 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 12:42:01,418 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 12:42:01,418 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 12:42:01,493 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 12:42:01,510 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 12:42:01,511 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 12:42:01,511 - OperaTask - INFO - 分析执行结果...
+2025-08-07 12:42:01,527 - OperaTask - INFO - 结果分析完成
+2025-08-07 12:42:01,528 - OperaTask - INFO - 分析结果:
+2025-08-07 12:42:01,529 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 12:42:01,530 - OperaTask - INFO -      未发现问题
+2025-08-07 12:42:01,530 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 12:42:01,533 - OperaTask - INFO -      Standby Database 备库信息:
+2025-08-07 12:42:01,534 - OperaTask - INFO -      STATUS: MOUNTED
+2025-08-07 12:42:01,534 - OperaTask - INFO -      HOST NAME: S-AA-H7970-DB
+2025-08-07 12:42:01,537 - OperaTask - INFO -      DATABASE ROLE: PHYSICAL STANDBY
+2025-08-07 12:42:01,537 - OperaTask - INFO -      PROTECTION MODE: MAXIMUM PERFORMANCE
+2025-08-07 12:42:01,537 - OperaTask - INFO -      START TIME: 22-JUL-2025 16:36
+2025-08-07 12:42:01,538 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 12:42:01,538 - OperaTask - INFO -    Production Database 主库信息:
+2025-08-07 12:42:01,541 - OperaTask - INFO -      STATUS: OPEN
+2025-08-07 12:42:01,541 - OperaTask - INFO -      HOST NAME: S-AA-H7970-FO
+2025-08-07 12:42:01,542 - OperaTask - INFO -      DATABASE ROLE: PRIMARY
+2025-08-07 12:42:01,542 - OperaTask - INFO -      START TIME: 22-APR-2025 01:44
+2025-08-07 12:42:01,543 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 12:42:01,544 - OperaTask - INFO -    服务器运行时间分析:
+2025-08-07 12:42:01,544 - OperaTask - INFO -      Standby数据库运行时间: 15天 <span style='color: green; font-weight: bold;'>状态正常</span>
+2025-08-07 12:42:01,545 - OperaTask - INFO -      Production数据库运行时间: 107天 <span style='color: red; font-weight: bold;'>立即关注，建议立即重启服务器以释放资源</span>
+2025-08-07 12:42:01,545 - OperaTask - INFO -    Opera Version Information:
+2025-08-07 12:42:01,546 - OperaTask - INFO -      Opera Version: 5.0.06.19 E00005
+2025-08-07 12:42:01,546 - OperaTask - INFO -    Oracle Version Information:
+2025-08-07 12:42:01,546 - OperaTask - INFO -      Oracle Version: Patch 28412269 applied
+2025-08-07 12:42:01,547 - OperaTask - INFO -      Platform: Microsoft Windows x86 64-bit
+2025-08-07 12:42:01,547 - OperaTask - INFO -    List of last 3 days backups (最后一条数据):
+2025-08-07 12:42:01,547 - OperaTask - INFO -      SESSION_RECID: 16398
+2025-08-07 12:42:01,548 - OperaTask - INFO -      START_TIME: 07-AUG-2025 08:01
+2025-08-07 12:42:01,548 - OperaTask - INFO -      END_TIME: 07-AUG-2025 08:16
+2025-08-07 12:42:01,548 - OperaTask - INFO -      OUTPUT_MBYTES: 26,520
+2025-08-07 12:42:01,549 - OperaTask - INFO -      STATUS: COMPLETED
+2025-08-07 12:42:01,550 - OperaTask - INFO -      INPUT_TYPE: DB FULL
+2025-08-07 12:42:01,551 - OperaTask - INFO -      DAY: Thursday
+2025-08-07 12:42:01,551 - OperaTask - INFO -      TIME_TAKEN: 00:15:38
+2025-08-07 12:42:01,552 - OperaTask - INFO -      OUTPUT_INSTANCE: 1
+2025-08-07 12:42:01,552 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 12:42:01,552 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 12:42:01,553 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 12:42:01,554 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 12:42:01,554 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 12:42:01,555 - OperaTask - INFO -      表空间统计: 共 32 个表空间
+2025-08-07 12:42:01,555 - OperaTask - INFO -      总SIZE (G): 149.13 GB
+2025-08-07 12:42:01,556 - OperaTask - INFO -      总MAX SIZE (G): 337.43 GB
+2025-08-07 12:42:01,556 - OperaTask - INFO -      整体使用率: 44.20%
+2025-08-07 12:42:01,556 - OperaTask - INFO -      ✅ 整体使用率良好
+2025-08-07 12:42:01,557 - OperaTask - INFO -      ✅ 所有表空间使用率正常
+2025-08-07 12:42:01,557 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.14 MB
+2025-08-07 12:42:01,558 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 12:42:01,558 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.6 GB，使用率 27.9%
+2025-08-07 12:42:01,559 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 12:42:01,559 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 12:42:01,559 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 12:42:01,560 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 12:42:01,560 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 12:42:01,560 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 12:42:01,561 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 12:42:01,561 - OperaTask - INFO -      告警级别: ✅ 正常 - 系统运行正常
+2025-08-07 12:42:01,561 - OperaTask - INFO -   7. 综合总结:
+2025-08-07 12:42:01,562 - OperaTask - INFO -      ✅ 系统整体状态: 健康
+2025-08-07 12:42:01,562 - OperaTask - INFO -      检测到问题总数: 0
+2025-08-07 12:42:01,563 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 12:42:01,563 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 12:42:01,564 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 12:42:01,565 - OperaTask - INFO -      建议: 按计划进行下次检查
+2025-08-07 12:42:01,565 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 12:42:01,590 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1600, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-07 12:42:01,604 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 12:42:01,604 - OperaTask - INFO - ==================================================
+2025-08-07 12:42:01,608 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 12:42:01,609 - OperaTask - INFO - ==================================================
+2025-08-07 18:50:42,768 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\logs\opera_task.log
+2025-08-07 18:50:42,772 - OperaTask - INFO - ==================================================
+2025-08-07 18:50:42,795 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 18:50:42,796 - OperaTask - INFO - ==================================================
+2025-08-07 18:50:43,306 - OperaTask - INFO - 初始化监控器...
+2025-08-07 18:50:43,308 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\opera_monitor.ini
+2025-08-07 18:50:43,318 - OperaTask - INFO - 检查配置信息...
+2025-08-07 18:50:43,319 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\check_standby.bat
+2025-08-07 18:50:43,319 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\dist\daily_report.bat
+2025-08-07 18:50:43,319 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 18:50:43,320 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 18:50:43,320 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 18:50:43,320 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 18:50:43,320 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 18:50:43,778 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 18:50:43,811 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 18:50:43,812 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 18:50:43,834 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 18:50:43,890 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 18:50:43,902 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 18:50:43,902 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 18:50:43,903 - OperaTask - INFO - 分析执行结果...
+2025-08-07 18:50:43,918 - OperaMonitor - ERROR - 检查备份时间告警时出错: cannot access local variable 're' where it is not associated with a value
+2025-08-07 18:50:43,923 - OperaMonitor - ERROR - 检查备份时间告警时出错: cannot access local variable 're' where it is not associated with a value
+2025-08-07 18:50:43,923 - OperaTask - INFO - 结果分析完成
+2025-08-07 18:50:43,923 - OperaTask - INFO - 分析结果:
+2025-08-07 18:50:43,923 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 18:50:43,924 - OperaTask - INFO -      未发现问题
+2025-08-07 18:50:43,924 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 18:50:43,924 - OperaTask - INFO -      Standby Database 备库信息:
+2025-08-07 18:50:43,924 - OperaTask - INFO -      STATUS: MOUNTED
+2025-08-07 18:50:43,924 - OperaTask - INFO -      HOST NAME: S-AA-H7970-DB
+2025-08-07 18:50:43,925 - OperaTask - INFO -      DATABASE ROLE: PHYSICAL STANDBY
+2025-08-07 18:50:43,925 - OperaTask - INFO -      PROTECTION MODE: MAXIMUM PERFORMANCE
+2025-08-07 18:50:43,925 - OperaTask - INFO -      START TIME: 22-JUL-2025 16:36
+2025-08-07 18:50:43,926 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 18:50:43,926 - OperaTask - INFO -    Production Database 主库信息:
+2025-08-07 18:50:43,927 - OperaTask - INFO -      STATUS: OPEN
+2025-08-07 18:50:43,927 - OperaTask - INFO -      HOST NAME: S-AA-H7970-FO
+2025-08-07 18:50:43,928 - OperaTask - INFO -      DATABASE ROLE: PRIMARY
+2025-08-07 18:50:43,928 - OperaTask - INFO -      START TIME: 22-APR-2025 01:44
+2025-08-07 18:50:43,929 - OperaTask - INFO -      SYSTEM DATE: 07-AUG-2025 10:21
+2025-08-07 18:50:43,929 - OperaTask - INFO -    服务器运行时间分析:
+2025-08-07 18:50:43,930 - OperaTask - INFO -      Standby数据库运行时间: 15天 <span style='color: green; font-weight: bold;'>状态正常</span>
+2025-08-07 18:50:43,930 - OperaTask - INFO -      Production数据库运行时间: 107天 <span style='color: red; font-weight: bold;'>立即关注，建议立即重启服务器以释放资源</span>
+2025-08-07 18:50:43,930 - OperaTask - INFO -    Opera Version Information:
+2025-08-07 18:50:43,931 - OperaTask - INFO -      Opera Version: 5.0.06.19 E00005
+2025-08-07 18:50:44,048 - OperaTask - INFO -    Oracle Version Information:
+2025-08-07 18:50:44,049 - OperaTask - INFO -      Oracle Version: Patch 28412269 applied
+2025-08-07 18:50:44,049 - OperaTask - INFO -      Platform: Microsoft Windows x86 64-bit
+2025-08-07 18:50:44,050 - OperaTask - INFO -    List of last 3 days backups (最后一条数据):
+2025-08-07 18:50:44,050 - OperaTask - INFO -      SESSION_RECID: 16398
+2025-08-07 18:50:44,051 - OperaTask - INFO -      START_TIME: 07-AUG-2025 08:01
+2025-08-07 18:50:44,051 - OperaTask - INFO -      END_TIME: 07-AUG-2025 08:16
+2025-08-07 18:50:44,051 - OperaTask - INFO -      OUTPUT_MBYTES: 26,520
+2025-08-07 18:50:44,052 - OperaTask - INFO -      STATUS: COMPLETED
+2025-08-07 18:50:44,052 - OperaTask - INFO -      INPUT_TYPE: DB FULL
+2025-08-07 18:50:44,053 - OperaTask - INFO -      DAY: Thursday
+2025-08-07 18:50:44,053 - OperaTask - INFO -      TIME_TAKEN: 00:15:38
+2025-08-07 18:50:44,054 - OperaTask - INFO -      OUTPUT_INSTANCE: 1
+2025-08-07 18:50:44,054 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 18:50:44,054 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 18:50:44,055 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 18:50:44,055 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 18:50:44,057 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 18:50:44,102 - OperaTask - INFO -      表空间统计: 共 32 个表空间
+2025-08-07 18:50:44,103 - OperaTask - INFO -      总SIZE (G): 149.13 GB
+2025-08-07 18:50:44,103 - OperaTask - INFO -      总MAX SIZE (G): 337.43 GB
+2025-08-07 18:50:44,104 - OperaTask - INFO -      整体使用率: 44.20%
+2025-08-07 18:50:44,104 - OperaTask - INFO -      ✅ 整体使用率良好
+2025-08-07 18:50:44,105 - OperaTask - INFO -      ✅ 所有表空间使用率正常
+2025-08-07 18:50:44,105 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.15 MB
+2025-08-07 18:50:44,106 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 18:50:44,106 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 106.2 GB，使用率 28.8%
+2025-08-07 18:50:44,107 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 18:50:44,107 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 18:50:44,107 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 18:50:44,108 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 18:50:44,109 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 18:50:44,109 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 18:50:44,110 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 18:50:44,324 - OperaTask - INFO -      告警级别: 🔴 紧急 - 发现严重问题，需要立即处理
+2025-08-07 18:50:44,324 - OperaTask - INFO -      Production数据库运行时间: 107天 - alert-critical (数据库启用已超过2个月，建议重启服务器以释放资源)
+2025-08-07 18:50:44,325 - OperaTask - INFO -   7. 综合总结:
+2025-08-07 18:50:44,325 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 18:50:44,326 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 18:50:44,326 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 18:50:44,327 - OperaTask - INFO -      建议: 1小时后重新检查
+2025-08-07 18:50:44,327 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 18:50:44,482 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 1918, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-07 18:50:44,485 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 18:50:44,488 - OperaTask - INFO - ==================================================
+2025-08-07 18:50:44,489 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 18:50:44,490 - OperaTask - INFO - ==================================================

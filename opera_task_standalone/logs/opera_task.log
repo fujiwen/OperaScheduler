@@ -1,0 +1,450 @@
+2025-08-06 16:02:54,944 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-06 16:02:54,945 - OperaTask - INFO - ==================================================
+2025-08-06 16:02:54,946 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 16:02:54,946 - OperaTask - INFO - ==================================================
+2025-08-06 16:02:55,147 - OperaTask - INFO - 初始化监控器...
+2025-08-06 16:02:55,150 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 16:02:55,153 - OperaTask - INFO - 检查配置信息...
+2025-08-06 16:02:55,154 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-06 16:02:55,154 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-06 16:02:55,155 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 16:02:55,155 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 16:02:55,155 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 16:02:55,156 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 16:02:55,156 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 16:02:55,210 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 16:02:55,222 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 16:02:55,223 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 16:02:55,223 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 16:02:55,286 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 16:02:55,303 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 16:02:55,304 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 16:02:55,305 - OperaTask - INFO - 分析执行结果...
+2025-08-06 16:02:55,306 - OperaTask - INFO - 结果分析完成
+2025-08-06 16:02:55,306 - OperaTask - INFO - 分析结果:
+2025-08-06 16:02:55,306 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 16:02:55,307 - OperaTask - INFO -   发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-06 16:02:55,307 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 16:02:55,456 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 770, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 16:02:55,460 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 16:02:55,461 - OperaTask - INFO - ==================================================
+2025-08-06 16:02:55,462 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 16:02:55,462 - OperaTask - INFO - ==================================================
+2025-08-06 16:08:01,583 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-06 16:08:01,591 - OperaTask - INFO - ==================================================
+2025-08-06 16:08:01,609 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 16:08:01,614 - OperaTask - INFO - ==================================================
+2025-08-06 16:08:01,910 - OperaTask - INFO - 初始化监控器...
+2025-08-06 16:08:01,912 - OperaMonitor - INFO - 配置文件已加载: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 16:08:01,913 - OperaTask - INFO - 检查配置信息...
+2025-08-06 16:08:01,914 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-06 16:08:01,914 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-06 16:08:01,915 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 16:08:01,915 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 16:08:01,915 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 16:08:01,916 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 16:08:01,917 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 16:08:01,976 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 16:08:01,990 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 16:08:01,992 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 16:08:01,993 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 16:08:02,042 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 16:08:02,060 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 16:08:02,061 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 16:08:02,062 - OperaTask - INFO - 分析执行结果...
+2025-08-06 16:08:02,063 - OperaTask - INFO - 结果分析完成
+2025-08-06 16:08:02,063 - OperaTask - INFO - 分析结果:
+2025-08-06 16:08:02,064 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 16:08:02,064 - OperaTask - INFO -   发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-06 16:08:02,065 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 16:08:02,088 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 770, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 16:08:02,091 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 16:08:02,091 - OperaTask - INFO - ==================================================
+2025-08-06 16:08:02,092 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 16:08:02,092 - OperaTask - INFO - ==================================================
+2025-08-06 17:09:51,973 - OperaTask - INFO - 日志初始化完成，日志文件: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-06 17:09:51,974 - OperaTask - INFO - ==================================================
+2025-08-06 17:09:51,978 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:09:51,979 - OperaTask - INFO - ==================================================
+2025-08-06 17:09:52,214 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:09:52,215 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 17:09:52,217 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:09:52,218 - OperaTask - INFO - check_standby.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-06 17:09:52,218 - OperaTask - INFO - daily_report.bat: C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-06 17:09:52,219 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:09:52,222 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:09:52,226 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:09:52,227 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:09:52,227 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:09:52,490 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:09:52,600 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:09:52,601 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:09:52,603 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:09:52,664 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:09:52,692 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:09:52,693 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:09:52,694 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:09:52,695 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:09:52,695 - OperaTask - INFO - 分析结果:
+2025-08-06 17:09:52,695 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:09:52,696 - OperaTask - INFO -   发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-06 17:09:52,696 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:09:52,727 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "opera_monitor.py", line 770, in send_email_report_service_mode
+  File "smtplib.py", line 255, in __init__
+  File "smtplib.py", line 341, in connect
+  File "smtplib.py", line 312, in _get_socket
+  File "socket.py", line 840, in create_connection
+  File "socket.py", line 977, in getaddrinfo
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 17:09:52,731 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:09:52,734 - OperaTask - INFO - ==================================================
+2025-08-06 17:09:52,734 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:09:52,735 - OperaTask - INFO - ==================================================
+2025-08-06 17:47:40,945 - OperaTask - INFO - 日志初始化完成，日志文件: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-06 17:47:40,946 - OperaTask - INFO - ==================================================
+2025-08-06 17:47:40,946 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 17:47:40,946 - OperaTask - INFO - ==================================================
+2025-08-06 17:47:41,167 - OperaTask - INFO - 初始化监控器...
+2025-08-06 17:47:41,171 - OperaMonitor - INFO - 配置文件已加载: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 17:47:41,175 - OperaTask - INFO - 检查配置信息...
+2025-08-06 17:47:41,176 - OperaTask - INFO - check_standby.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-06 17:47:41,177 - OperaTask - INFO - daily_report.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-06 17:47:41,178 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 17:47:41,178 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 17:47:41,179 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 17:47:41,180 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 17:47:41,180 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 17:47:41,244 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:47:41,250 - OperaMonitor - INFO - 正在压缩归档logs目录下的文件...
+2025-08-06 17:47:42,785 - OperaMonitor - INFO - logs目录文件已压缩为: logs_backup_20250806_174741.zip
+2025-08-06 17:47:42,826 - OperaMonitor - INFO - 错误输出:
+ZipArchiveHelper : The process cannot access the file 'C:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log' because it is being used by another
+ process.
+At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:632 char:30
++ ... sArchived = ZipArchiveHelper $sourceFilePaths $destinationPath $compr ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+    + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+ 
+New-Object : Exception calling ".ctor" with "1" argument(s): "Stream was not readable."
+At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:808 char:38
++ ...     $srcStream = New-Object System.IO.BinaryReader $currentFileStream
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:47:42,827 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 17:47:42,828 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 17:47:42,873 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 17:47:42,887 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 17:47:42,888 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 17:47:42,888 - OperaTask - INFO - 分析执行结果...
+2025-08-06 17:47:42,889 - OperaTask - INFO - 结果分析完成
+2025-08-06 17:47:42,889 - OperaTask - INFO - 分析结果:
+2025-08-06 17:47:42,889 - OperaTask - INFO -   Check Standby发现 3 个潜在问题:
+2025-08-06 17:47:42,890 - OperaTask - INFO -     - + CategoryInfo          : PermissionDenied: (C:\Users\Admini...\opera_task.log:String) [Write-Error], IOException
+2025-08-06 17:47:42,890 - OperaTask - INFO -     - + FullyQualifiedErrorId : CompressArchiveUnauthorizedAccessError,ZipArchiveHelper
+2025-08-06 17:47:42,890 - OperaTask - INFO -     - + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+2025-08-06 17:47:42,891 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 17:47:42,891 - OperaTask - INFO -   发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-06 17:47:42,891 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 17:47:42,920 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.py", line 771, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 17:47:42,937 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 17:47:42,937 - OperaTask - INFO - ==================================================
+2025-08-06 17:47:42,938 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 17:47:42,938 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:25,883 - OperaTask - INFO - 日志初始化完成，日志文件: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-06 18:11:25,884 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:25,884 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:11:25,884 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:26,105 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:11:26,107 - OperaMonitor - INFO - 配置文件已加载: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:11:26,107 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:11:26,108 - OperaTask - INFO - check_standby.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-06 18:11:26,108 - OperaTask - INFO - daily_report.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-06 18:11:26,109 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:11:26,109 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:11:26,109 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:11:26,111 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:11:26,111 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:11:26,159 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:11:26,163 - OperaMonitor - INFO - 正在压缩归档logs目录下的文件...
+2025-08-06 18:11:27,383 - OperaMonitor - INFO - logs目录文件已压缩为: logs_backup_20250806_181126.zip
+2025-08-06 18:11:27,443 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:11:27,444 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:11:27,444 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:11:27,506 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:11:27,538 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:11:27,539 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:11:27,540 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:11:27,541 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:11:27,541 - OperaTask - INFO - 分析结果:
+2025-08-06 18:11:27,542 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 18:11:27,542 - OperaTask - INFO -   发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-06 18:11:27,542 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:11:27,561 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.py", line 771, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 18:11:27,578 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:11:27,578 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:27,579 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:11:27,579 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:39,739 - OperaTask - INFO - 日志初始化完成，日志文件: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-06 18:11:39,739 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:39,740 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-06 18:11:39,740 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:39,889 - OperaTask - INFO - 初始化监控器...
+2025-08-06 18:11:39,892 - OperaMonitor - INFO - 配置文件已加载: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-06 18:11:39,892 - OperaTask - INFO - 检查配置信息...
+2025-08-06 18:11:39,893 - OperaTask - INFO - check_standby.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-06 18:11:39,893 - OperaTask - INFO - daily_report.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-06 18:11:39,894 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-06 18:11:39,894 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-06 18:11:39,899 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-06 18:11:39,900 - OperaTask - INFO - 开始执行监控检查...
+2025-08-06 18:11:39,901 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-06 18:11:39,956 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:11:39,960 - OperaMonitor - INFO - 正在压缩归档logs目录下的文件...
+2025-08-06 18:11:41,211 - OperaMonitor - INFO - logs目录文件已压缩为: logs_backup_20250806_181140.zip
+2025-08-06 18:11:41,256 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:11:41,257 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-06 18:11:41,258 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-06 18:11:41,340 - OperaMonitor - INFO - Active code page: 65001
+2025-08-06 18:11:41,361 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-06 18:11:41,362 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-06 18:11:41,363 - OperaTask - INFO - 分析执行结果...
+2025-08-06 18:11:41,364 - OperaTask - INFO - 结果分析完成
+2025-08-06 18:11:41,365 - OperaTask - INFO - 分析结果:
+2025-08-06 18:11:41,365 - OperaTask - INFO -   HTML报告分析:
+2025-08-06 18:11:41,366 - OperaTask - INFO -   发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-06 18:11:41,366 - OperaTask - INFO - 发送邮件报告...
+2025-08-06 18:11:41,382 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.py", line 771, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-06 18:11:41,406 - OperaTask - INFO - 邮件报告发送成功
+2025-08-06 18:11:41,407 - OperaTask - INFO - ==================================================
+2025-08-06 18:11:41,407 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-06 18:11:41,407 - OperaTask - INFO - ==================================================
+2025-08-07 09:56:01,146 - OperaTask - INFO - 日志初始化完成，日志文件: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\logs\opera_task.log
+2025-08-07 09:56:01,147 - OperaTask - INFO - ==================================================
+2025-08-07 09:56:01,147 - OperaTask - INFO - 开始执行Opera DataGuard监控任务
+2025-08-07 09:56:01,148 - OperaTask - INFO - ==================================================
+2025-08-07 09:56:01,353 - OperaTask - INFO - 初始化监控器...
+2025-08-07 09:56:01,354 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.ini
+2025-08-07 09:56:01,356 - OperaTask - INFO - 检查配置信息...
+2025-08-07 09:56:01,357 - OperaTask - INFO - check_standby.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\check_standby.bat
+2025-08-07 09:56:01,357 - OperaTask - INFO - daily_report.bat: c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\daily_report.bat
+2025-08-07 09:56:01,357 - OperaTask - INFO - 邮件服务器: smtp-sin02.aa.accor.net
+2025-08-07 09:56:01,358 - OperaTask - INFO - 发送者: your_email@example.com
+2025-08-07 09:56:01,358 - OperaTask - INFO - 接收者: recipient1@example.com,recipient2@example.com
+2025-08-07 09:56:01,358 - OperaTask - INFO - 开始执行监控检查...
+2025-08-07 09:56:01,358 - OperaTask - INFO - 执行 check_standby.bat...
+2025-08-07 09:56:01,414 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 09:56:01,424 - OperaMonitor - INFO - 错误输出:
+'SQLPLUS' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 09:56:01,425 - OperaTask - INFO - check_standby.bat 执行完成
+2025-08-07 09:56:01,425 - OperaTask - INFO - 执行 daily_report.bat...
+2025-08-07 09:56:01,480 - OperaMonitor - INFO - Active code page: 65001
+2025-08-07 09:56:01,503 - OperaMonitor - INFO - 错误输出:
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+'sqlplus' is not recognized as an internal or external command,
+operable program or batch file.
+
+2025-08-07 09:56:01,504 - OperaTask - INFO - daily_report.bat 执行完成
+2025-08-07 09:56:01,504 - OperaTask - INFO - 分析执行结果...
+2025-08-07 09:56:01,549 - OperaTask - INFO - 结果分析完成
+2025-08-07 09:56:01,549 - OperaTask - INFO - 分析结果:
+2025-08-07 09:56:01,550 - OperaTask - INFO -   1. Check Standby 分析:
+2025-08-07 09:56:01,550 - OperaTask - INFO -      未发现问题
+2025-08-07 09:56:01,550 - OperaTask - INFO -   2. HTML报告分析:
+2025-08-07 09:56:01,551 - OperaTask - INFO -      发现归档日志间隙; 发现未应用日志; 发现危险状态; 发现错误
+2025-08-07 09:56:01,551 - OperaTask - INFO -   3. 性能监控分析:
+2025-08-07 09:56:01,552 - OperaTask - INFO -      同步状态: 无法获取同步时间信息
+2025-08-07 09:56:01,552 - OperaTask - INFO -      MRP进程: 未检测到进程信息
+2025-08-07 09:56:01,553 - OperaTask - INFO -      网络传输: 需要检查RFS进程状态
+2025-08-07 09:56:01,553 - OperaTask - INFO -   4. 容量和空间分析:
+2025-08-07 09:56:01,554 - OperaTask - INFO -      日志目录: 2 个文件，总大小 0.03 MB
+2025-08-07 09:56:01,554 - OperaTask - INFO -      日志空间: 使用正常
+2025-08-07 09:56:01,554 - OperaTask - INFO -      磁盘空间: 总计 149.2 GB，剩余 107.9 GB，使用率 27.7%
+2025-08-07 09:56:01,555 - OperaTask - INFO -      磁盘空间: 充足
+2025-08-07 09:56:01,560 - OperaTask - INFO -   5. 风险预警分析:
+2025-08-07 09:56:01,569 - OperaTask - INFO -      环境风险: Oracle客户端未正确安装或配置
+2025-08-07 09:56:01,572 - OperaTask - INFO -      进程健康: 未检测到关键进程，可能存在风险
+2025-08-07 09:56:01,573 - OperaTask - INFO -      配置检查: 无法获取保护模式信息
+2025-08-07 09:56:01,573 - OperaTask - INFO -      角色检查: 无法确认数据库角色
+2025-08-07 09:56:01,575 - OperaTask - INFO -   6. 智能告警分级:
+2025-08-07 09:56:01,578 - OperaTask - INFO -      告警级别: 🟡 重要 - 发现重要问题，建议尽快处理
+2025-08-07 09:56:01,579 - OperaTask - INFO -      总错误数: 0
+2025-08-07 09:56:01,580 - OperaTask - INFO -      根因分析: 归档日志同步问题
+2025-08-07 09:56:01,581 - OperaTask - INFO -   7. 趋势和历史分析:
+2025-08-07 09:56:01,581 - OperaTask - INFO -      历史错误统计: 最近检测到 3 个错误
+2025-08-07 09:56:01,581 - OperaTask - INFO -      环境问题: 检测到 6 次Oracle客户端问题
+2025-08-07 09:56:01,582 - OperaTask - INFO -      趋势分析: 建议优先解决Oracle客户端配置问题
+2025-08-07 09:56:01,582 - OperaTask - INFO -      趋势分析: 偶发性问题，建议持续监控
+2025-08-07 09:56:01,583 - OperaTask - INFO -      预测建议: 主要问题为环境配置，解决后系统稳定性将显著提升
+2025-08-07 09:56:01,583 - OperaTask - INFO -   8. 综合总结:
+2025-08-07 09:56:01,583 - OperaTask - INFO -      ⚠️ 系统整体状态: 需要关注
+2025-08-07 09:56:01,584 - OperaTask - INFO -      检测到问题总数: 1
+2025-08-07 09:56:01,584 - OperaTask - INFO -      性能状态: 需要关注
+2025-08-07 09:56:01,585 - OperaTask - INFO -      容量状态: 正常
+2025-08-07 09:56:01,585 - OperaTask - INFO -      风险评估: 存在潜在风险
+2025-08-07 09:56:01,585 - OperaTask - INFO -      建议: 1小时后重新检查
+2025-08-07 09:56:01,586 - OperaTask - INFO - 发送邮件报告...
+2025-08-07 09:56:01,946 - OperaMonitor - ERROR - 发送邮件时出错: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "c:\Users\Administrator\Desktop\OperaScheduler\opera_task_standalone\opera_monitor.py", line 1089, in send_email_report_service_mode
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2025-08-07 09:56:01,971 - OperaTask - INFO - 邮件报告发送成功
+2025-08-07 09:56:01,972 - OperaTask - INFO - ==================================================
+2025-08-07 09:56:01,972 - OperaTask - INFO - Opera DataGuard监控任务执行完成
+2025-08-07 09:56:01,973 - OperaTask - INFO - ==================================================
