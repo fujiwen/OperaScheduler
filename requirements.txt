@@ -1,0 +1,9 @@
+# Opera数据库监控工具依赖
+# 大多数依赖已包含在Python标准库中
+
+# 如果tkinter未安装，可能需要通过系统包管理器安装
+# 例如在Ubuntu上：sudo apt-get install python3-tk
+# 在macOS上：brew install python-tk@3.9
+
+# 其他可能需要的包
+configparser>=5.0.0

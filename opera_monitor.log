@@ -1,0 +1,26 @@
+2025-08-06 10:18:41,603 - OperaMonitor - INFO - 配置文件不存在，创建默认配置: opera_monitor.ini
+2025-08-06 10:19:44,918 - OperaMonitor - INFO - 开始执行 check_standby.bat...
+2025-08-06 10:19:44,952 - OperaMonitor - INFO - 错误输出:
+/bin/sh: /Users/fujiwen/Documents/github101/OperaScheduler/check_standby.bat: Permission denied
+
+2025-08-06 10:19:44,953 - OperaMonitor - INFO - check_standby.bat 执行完成
+2025-08-06 10:19:44,954 - OperaMonitor - INFO - 输出:
+
+错误输出:
+/bin/sh: /Users/fujiwen/Documents/github101/OperaScheduler/check_standby.bat: Permission denied
+
+2025-08-06 10:19:44,963 - OperaMonitor - INFO - 开始执行 daily_report.bat...
+2025-08-06 10:19:45,029 - OperaMonitor - INFO - 错误输出:
+/bin/sh: /Users/fujiwen/Documents/github101/OperaScheduler/daily_report.bat: Permission denied
+
+2025-08-06 10:19:45,030 - OperaMonitor - INFO - daily_report.bat 执行完成
+2025-08-06 10:19:45,031 - OperaMonitor - INFO - 输出:
+
+错误输出:
+/bin/sh: /Users/fujiwen/Documents/github101/OperaScheduler/daily_report.bat: Permission denied
+
+2025-08-06 10:19:45,039 - OperaMonitor - INFO - 监控任务完成
+2025-08-06 10:32:30,968 - OperaMonitor - INFO - 配置文件已加载: opera_monitor.ini
+2025-08-06 10:33:48,366 - OperaMonitor - INFO - 配置文件已加载: opera_monitor.ini
+2025-08-06 10:37:24,069 - OperaMonitor - INFO - 配置文件已加载: opera_monitor.ini
+2025-08-06 10:52:12,771 - OperaMonitor - INFO - 配置文件已加载: /Users/fujiwen/Documents/github101/OperaScheduler/opera_monitor.ini
